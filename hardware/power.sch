@@ -1622,10 +1622,10 @@ F 3 "" H 10850 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP8
 U 1 1 5D64FF77
 P 10300 4400
-F 0 "TP?" H 10242 4426 50  0000 R CNN
+F 0 "TP8" H 10242 4426 50  0000 R CNN
 F 1 "TP_BUZZER" H 10242 4517 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10500 4400 50  0001 C CNN
 F 3 "~" H 10500 4400 50  0001 C CNN
@@ -1638,10 +1638,10 @@ Connection ~ 10300 4300
 Wire Wire Line
 	10300 4300 10850 4300
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP7
 U 1 1 5D650EC3
 P 10300 4050
-F 0 "TP?" H 10242 4076 50  0000 R CNN
+F 0 "TP7" H 10242 4076 50  0000 R CNN
 F 1 "TP_OLED" H 10242 4167 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10500 4050 50  0001 C CNN
 F 3 "~" H 10500 4050 50  0001 C CNN
@@ -1654,10 +1654,10 @@ Connection ~ 10300 3950
 Wire Wire Line
 	10300 3950 10850 3950
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP6
 U 1 1 5D651BFE
 P 10300 3650
-F 0 "TP?" H 10242 3676 50  0000 R CNN
+F 0 "TP6" H 10242 3676 50  0000 R CNN
 F 1 "TP_STM32" H 10242 3767 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10500 3650 50  0001 C CNN
 F 3 "~" H 10500 3650 50  0001 C CNN
@@ -1670,10 +1670,10 @@ Connection ~ 10300 3600
 Wire Wire Line
 	10300 3600 10850 3600
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP5
 U 1 1 5D654903
 P 10150 2900
-F 0 "TP?" H 10092 2926 50  0000 R CNN
+F 0 "TP5" H 10092 2926 50  0000 R CNN
 F 1 "TP_WS2812" H 10092 3017 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10350 2900 50  0001 C CNN
 F 3 "~" H 10350 2900 50  0001 C CNN

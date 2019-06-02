@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW2
 U 1 1 5CF38962
 P 3050 850
-F 0 "SW?" H 3050 1135 50  0000 C CNN
+F 0 "SW2" H 3050 1135 50  0000 C CNN
 F 1 "KEY11" H 3050 1044 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 1050 50  0001 C CNN
 F 3 "~" H 3050 1050 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 3050 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D4
 U 1 1 5CF3D741
 P 2750 1050
-F 0 "D?" V 2796 982 50  0000 R CNN
+F 0 "D4" V 2796 982 50  0000 R CNN
 F 1 "D_1N4148_T4" V 2705 982 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 2750 1050 50  0001 C CNN
 F 3 "~" V 2750 1050 50  0001 C CNN
@@ -41,10 +41,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 850  2850 850 
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW5
 U 1 1 5CF3E618
 P 3050 1650
-F 0 "SW?" H 3050 1935 50  0000 C CNN
+F 0 "SW5" H 3050 1935 50  0000 C CNN
 F 1 "KEY21" H 3050 1844 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 1850 50  0001 C CNN
 F 3 "~" H 3050 1850 50  0001 C CNN
@@ -52,10 +52,10 @@ F 3 "~" H 3050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D7
 U 1 1 5CF3E622
 P 2750 1850
-F 0 "D?" V 2796 1782 50  0000 R CNN
+F 0 "D7" V 2796 1782 50  0000 R CNN
 F 1 "D_1N4148_T4" V 2705 1782 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 2750 1850 50  0001 C CNN
 F 3 "~" V 2750 1850 50  0001 C CNN
@@ -67,10 +67,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 1650 2850 1650
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW8
 U 1 1 5CF3EEEC
 P 3050 2450
-F 0 "SW?" H 3050 2735 50  0000 C CNN
+F 0 "SW8" H 3050 2735 50  0000 C CNN
 F 1 "KEY31" H 3050 2644 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 2650 50  0001 C CNN
 F 3 "~" H 3050 2650 50  0001 C CNN
@@ -78,10 +78,10 @@ F 3 "~" H 3050 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D10
 U 1 1 5CF3EEF6
 P 2750 2650
-F 0 "D?" V 2796 2582 50  0000 R CNN
+F 0 "D10" V 2796 2582 50  0000 R CNN
 F 1 "D_1N4148_T4" V 2705 2582 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 2750 2650 50  0001 C CNN
 F 3 "~" V 2750 2650 50  0001 C CNN
@@ -93,10 +93,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 2450 2850 2450
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW11
 U 1 1 5CF3EF02
 P 3050 3250
-F 0 "SW?" H 3050 3535 50  0000 C CNN
+F 0 "SW11" H 3050 3535 50  0000 C CNN
 F 1 "KEY41" H 3050 3444 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 3450 50  0001 C CNN
 F 3 "~" H 3050 3450 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "~" H 3050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D13
 U 1 1 5CF3EF0C
 P 2750 3450
-F 0 "D?" V 2796 3382 50  0000 R CNN
+F 0 "D13" V 2796 3382 50  0000 R CNN
 F 1 "D_1N4148_T4" V 2705 3382 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 2750 3450 50  0001 C CNN
 F 3 "~" V 2750 3450 50  0001 C CNN
@@ -119,10 +119,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 3250 2850 3250
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW3
 U 1 1 5CF44234
 P 4150 850
-F 0 "SW?" H 4150 1135 50  0000 C CNN
+F 0 "SW3" H 4150 1135 50  0000 C CNN
 F 1 "KEY12" H 4150 1044 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 1050 50  0001 C CNN
 F 3 "~" H 4150 1050 50  0001 C CNN
@@ -130,10 +130,10 @@ F 3 "~" H 4150 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D5
 U 1 1 5CF4423E
 P 3850 1050
-F 0 "D?" V 3896 982 50  0000 R CNN
+F 0 "D5" V 3896 982 50  0000 R CNN
 F 1 "D_1N4148_T4" V 3805 982 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 3850 1050 50  0001 C CNN
 F 3 "~" V 3850 1050 50  0001 C CNN
@@ -145,10 +145,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 850  3950 850 
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW6
 U 1 1 5CF4424A
 P 4150 1650
-F 0 "SW?" H 4150 1935 50  0000 C CNN
+F 0 "SW6" H 4150 1935 50  0000 C CNN
 F 1 "KEY22" H 4150 1844 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 1850 50  0001 C CNN
 F 3 "~" H 4150 1850 50  0001 C CNN
@@ -156,10 +156,10 @@ F 3 "~" H 4150 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D8
 U 1 1 5CF44254
 P 3850 1850
-F 0 "D?" V 3896 1782 50  0000 R CNN
+F 0 "D8" V 3896 1782 50  0000 R CNN
 F 1 "D_1N4148_T4" V 3805 1782 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 3850 1850 50  0001 C CNN
 F 3 "~" V 3850 1850 50  0001 C CNN
@@ -171,10 +171,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 1650 3950 1650
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW9
 U 1 1 5CF44260
 P 4150 2450
-F 0 "SW?" H 4150 2735 50  0000 C CNN
+F 0 "SW9" H 4150 2735 50  0000 C CNN
 F 1 "KEY32" H 4150 2644 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 2650 50  0001 C CNN
 F 3 "~" H 4150 2650 50  0001 C CNN
@@ -182,10 +182,10 @@ F 3 "~" H 4150 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D11
 U 1 1 5CF4426A
 P 3850 2650
-F 0 "D?" V 3896 2582 50  0000 R CNN
+F 0 "D11" V 3896 2582 50  0000 R CNN
 F 1 "D_1N4148_T4" V 3805 2582 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 3850 2650 50  0001 C CNN
 F 3 "~" V 3850 2650 50  0001 C CNN
@@ -197,10 +197,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 2450 3950 2450
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW12
 U 1 1 5CF44276
 P 4150 3250
-F 0 "SW?" H 4150 3535 50  0000 C CNN
+F 0 "SW12" H 4150 3535 50  0000 C CNN
 F 1 "KEY42" H 4150 3444 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 3450 50  0001 C CNN
 F 3 "~" H 4150 3450 50  0001 C CNN
@@ -208,10 +208,10 @@ F 3 "~" H 4150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D14
 U 1 1 5CF44280
 P 3850 3450
-F 0 "D?" V 3896 3382 50  0000 R CNN
+F 0 "D14" V 3896 3382 50  0000 R CNN
 F 1 "D_1N4148_T4" V 3805 3382 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 3850 3450 50  0001 C CNN
 F 3 "~" V 3850 3450 50  0001 C CNN
@@ -223,10 +223,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 3250 3950 3250
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW4
 U 1 1 5CF46C3C
 P 5150 850
-F 0 "SW?" H 5150 1135 50  0000 C CNN
+F 0 "SW4" H 5150 1135 50  0000 C CNN
 F 1 "KEY13" H 5150 1044 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 1050 50  0001 C CNN
 F 3 "~" H 5150 1050 50  0001 C CNN
@@ -234,10 +234,10 @@ F 3 "~" H 5150 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D6
 U 1 1 5CF46C46
 P 4850 1050
-F 0 "D?" V 4896 982 50  0000 R CNN
+F 0 "D6" V 4896 982 50  0000 R CNN
 F 1 "D_1N4148_T4" V 4805 982 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 4850 1050 50  0001 C CNN
 F 3 "~" V 4850 1050 50  0001 C CNN
@@ -249,10 +249,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 850  4950 850 
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW7
 U 1 1 5CF46C52
 P 5150 1650
-F 0 "SW?" H 5150 1935 50  0000 C CNN
+F 0 "SW7" H 5150 1935 50  0000 C CNN
 F 1 "KEY23" H 5150 1844 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 1850 50  0001 C CNN
 F 3 "~" H 5150 1850 50  0001 C CNN
@@ -260,10 +260,10 @@ F 3 "~" H 5150 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D9
 U 1 1 5CF46C5C
 P 4850 1850
-F 0 "D?" V 4896 1782 50  0000 R CNN
+F 0 "D9" V 4896 1782 50  0000 R CNN
 F 1 "D_1N4148_T4" V 4805 1782 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 4850 1850 50  0001 C CNN
 F 3 "~" V 4850 1850 50  0001 C CNN
@@ -275,10 +275,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 1650 4950 1650
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW10
 U 1 1 5CF46C68
 P 5150 2450
-F 0 "SW?" H 5150 2735 50  0000 C CNN
+F 0 "SW10" H 5150 2735 50  0000 C CNN
 F 1 "KEY33" H 5150 2644 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 2650 50  0001 C CNN
 F 3 "~" H 5150 2650 50  0001 C CNN
@@ -286,10 +286,10 @@ F 3 "~" H 5150 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D12
 U 1 1 5CF46C72
 P 4850 2650
-F 0 "D?" V 4896 2582 50  0000 R CNN
+F 0 "D12" V 4896 2582 50  0000 R CNN
 F 1 "D_1N4148_T4" V 4805 2582 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 4850 2650 50  0001 C CNN
 F 3 "~" V 4850 2650 50  0001 C CNN
@@ -301,10 +301,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 2450 4950 2450
 $Comp
-L taobao-button:cherry_mx_no_led SW?
+L taobao-button:cherry_mx_no_led SW13
 U 1 1 5CF46C7E
 P 5150 3250
-F 0 "SW?" H 5150 3535 50  0000 C CNN
+F 0 "SW13" H 5150 3535 50  0000 C CNN
 F 1 "KEY43" H 5150 3444 50  0000 C CNN
 F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 3450 50  0001 C CNN
 F 3 "~" H 5150 3450 50  0001 C CNN
@@ -312,10 +312,10 @@ F 3 "~" H 5150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-d:D_1N4148_T4 D?
+L taobao-d:D_1N4148_T4 D15
 U 1 1 5CF46C88
 P 4850 3450
-F 0 "D?" V 4896 3382 50  0000 R CNN
+F 0 "D15" V 4896 3382 50  0000 R CNN
 F 1 "D_1N4148_T4" V 4805 3382 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 4850 3450 50  0001 C CNN
 F 3 "~" V 4850 3450 50  0001 C CNN

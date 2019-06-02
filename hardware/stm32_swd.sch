@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 13
+Sheet 10 13
 Title ""
 Date ""
 Rev ""
@@ -6854,17 +6854,6 @@ F 3 "" H 12800 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12800 4800 12800 4900
-$Comp
-L taobao-components:BLUEPILL_SWD J7
-U 1 1 5D156281
-P 13200 5000
-F 0 "J7" H 13580 4992 50  0000 L CNN
-F 1 "SWD_SWD" H 13580 4901 50  0000 L CNN
-F 2 "footprint-lib:BLUEPILL_SWD" H 13250 4600 50  0001 C CNN
-F 3 "" H 13200 5000 50  0001 C CNN
-	1    13200 5000
-	1    0    0    -1  
-$EndComp
 Text Label 12000 5100 0    50   ~ 0
 T_JTMS
 Text Label 12000 5000 0    50   ~ 0
@@ -6908,12 +6897,6 @@ Wire Wire Line
 	12000 5000 12450 5000
 Wire Wire Line
 	12000 5100 12450 5100
-Wire Wire Line
-	12650 5000 13000 5000
-Wire Wire Line
-	12650 5100 13000 5100
-Wire Wire Line
-	12800 4900 13000 4900
 $Comp
 L my_power:Vstm32_stlink #PWR0129
 U 1 1 5D18F3AF
@@ -7006,8 +6989,6 @@ Wire Wire Line
 	11900 3450 11900 3400
 Wire Wire Line
 	11900 3450 12950 3450
-Wire Wire Line
-	11800 5200 13000 5200
 Wire Wire Line
 	11800 5100 11800 5200
 Wire Wire Line
@@ -7226,4 +7207,39 @@ F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 10850 7750 50  0001 C 
 	1    10750 8000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11800 5200 13650 5200
+Wire Wire Line
+	12650 5100 13650 5100
+Wire Wire Line
+	12650 5000 13650 5000
+Wire Wire Line
+	12800 4900 13650 4900
+$Comp
+L taobao-components:BLUEPILL_SWD J7
+U 1 1 5D156281
+P 13850 5000
+F 0 "J7" H 14230 4992 50  0000 L CNN
+F 1 "SWD_SWD" H 14230 4901 50  0000 L CNN
+F 2 "footprint-lib:BLUEPILL_SWD" H 13900 4600 50  0001 C CNN
+F 3 "" H 13850 5000 50  0001 C CNN
+	1    13850 5000
+	1    0    0    -1  
+$EndComp
+Text Label 13450 5100 2    50   ~ 0
+D_SWDIO
+Text Label 13450 5000 2    50   ~ 0
+D_SWCLK
+Text Label 1600 800  2    50   ~ 0
+SWCLK
+Text Label 1600 900  2    50   ~ 0
+SWDIO
+Text HLabel 1150 800  0    50   Input ~ 0
+D_SWCLK
+Text HLabel 1150 900  0    50   Input ~ 0
+D_SWDIO
+Wire Wire Line
+	1150 800  1600 800 
+Wire Wire Line
+	1150 900  1600 900 
 $EndSCHEMATC

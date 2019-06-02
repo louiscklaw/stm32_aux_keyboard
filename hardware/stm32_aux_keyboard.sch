@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -79,5 +79,11 @@ S 1950 1550 950  600
 U 5CFF7883
 F0 "rot_enc2" 50
 F1 "rot_enc2.sch" 50
+$EndSheet
+$Sheet
+S 3550 100  650  300 
+U 5CF48B33
+F0 "stm32_swd" 50
+F1 "stm32_swd.sch" 50
 $EndSheet
 $EndSCHEMATC

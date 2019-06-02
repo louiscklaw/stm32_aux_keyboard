@@ -1204,4 +1204,17 @@ F 3 "~" H 9350 4600 50  0001 C CNN
 	1    9350 4400
 	0    -1   -1   0   
 $EndComp
+Text HLabel 1100 5150 0    50   Input ~ 0
+TTL_TX
+Wire Wire Line
+	1650 5150 1100 5150
+Text Label 1650 5150 2    50   ~ 0
+PA9
+Text HLabel 1100 5250 0    50   Input ~ 0
+TTL_RX
+Wire Wire Line
+	1650 5250 1100 5250
+Text Label 1650 5250 2    50   ~ 0
+PA10
+NoConn ~ 4500 1300
 $EndSCHEMATC

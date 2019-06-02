@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  74289.3 -97942.5  25892.5 -97942.5  25892.5 -70092.5
-            74289.3 -70092.5  74289.3 -97942.5)
+      (path pcb 0  57789.3 -93442.5  25392.5 -93442.5  25392.5 -72258.3
+            57789.3 -72258.3  57789.3 -93442.5)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,40 +34,40 @@
   )
   (placement
     (component "footprint-lib:LED_0603_1608Metric"
-      (place D2 35000 -75000 front 0 (PN LED_ORANGE))
-      (place D1 35000 -72500 front 0 (PN LED_GREEN))
+      (place D2 35500 -77000 front 270 (PN LED_ORANGE))
+      (place D1 40000 -77000 front 270 (PN LED_GREEN))
     )
     (component "footprint-lib:AMS1117_SOT-223"
-      (place U2 38750 -83250 front 90 (PN "footprint-lib:AMS1117_SOT-223"))
+      (place U2 39500 -83500 back 270 (PN "AMS1117-3.3"))
     )
     (component TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm
-      (place TP7 55000 -90000 front 0 (PN TP_GND))
-      (place TP6 45000 -90000 front 0 (PN TP_3V3))
-      (place TP5 50000 -90000 front 0 (PN TP_5V))
-      (place TP4 70000 -90000 front 0 (PN TP_BUZZER))
-      (place TP3 70000 -85000 front 0 (PN TP_OLED))
-      (place TP2 70000 -80000 front 0 (PN TP_STM32))
-      (place TP1 70000 -95000 front 0 (PN TP_WS2812))
+      (place TP7 42500 -90500 front 0 (PN TP_GND))
+      (place TP6 39500 -90500 front 0 (PN TP_3V3))
+      (place TP5 36500 -90500 front 0 (PN TP_5V))
+      (place TP4 53500 -85500 front 0 (PN TP_BUZZER))
+      (place TP3 53500 -82500 front 0 (PN TP_OLED))
+      (place TP2 53500 -79500 front 0 (PN TP_STM32))
+      (place TP1 53500 -88500 front 0 (PN TP_WS2812))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R6 40000 -75000 front 0 (PN R511,0603))
-      (place R5 40000 -72500 front 0 (PN R511,0603))
-      (place R3 32500 -90000 front 270 (PN R0,0603))
-      (place F1 35000 -90000 front 90 (PN Fuse_Small))
-      (place C4 54250 -84750 front 270 (PN C105))
+      (place R6 37500 -77000 front 270 (PN R511,0603))
+      (place R5 42000 -77000 front 270 (PN R511,0603))
+      (place R3 32750 -82750 back 90 (PN R0,0603))
+      (place F1 37000 -86000 front 270 (PN Fuse_Small))
+      (place C4 45000 -83500 back 90 (PN C105))
     )
     (component "footprint-lib:VAR_0805"
-      (place R4 30000 -90000 front 90 (PN VAR_5V6,0805))
+      (place R4 28500 -82750 back 270 (PN VAR_5V6,0805))
     )
     (component "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-      (place JP4 65000 -90000 front 0 (PN BUZZER_EN))
-      (place JP3 65000 -85000 front 0 (PN OLED_EN))
-      (place JP2 65000 -80000 front 0 (PN STM32_EN))
-      (place JP1 65000 -95000 front 0 (PN WS2812_EN))
+      (place JP4 50000 -85500 front 180 (PN BUZZER_EN))
+      (place JP3 50000 -82500 front 180 (PN OLED_EN))
+      (place JP2 50000 -79500 front 180 (PN STM32_EN))
+      (place JP1 50000 -88500 front 180 (PN WS2812_EN))
     )
     (component Capacitor_SMD:CP_Elec_6.3x5.3
-      (place C3 49250 -83000 front 270 (PN CP100uf,16V))
-      (place C2 31000 -83000 front 270 (PN CP100uf,16V))
+      (place C3 43500 -83500 front 270 (PN CP100uf,16V))
+      (place C2 30500 -83000 front 90 (PN CP100uf,16V))
     )
   )
   (library

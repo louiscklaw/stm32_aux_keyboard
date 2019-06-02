@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:stm32_aux_keyboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 13 13
 Title ""
 Date ""
 Rev ""
@@ -401,17 +402,6 @@ Wire Wire Line
 	3750 900  3900 900 
 Text Label 1600 6450 2    50   ~ 0
 VDDA
-$Comp
-L power:+3V3 #PWR0153
-U 1 1 5BCF284B
-P 3750 900
-F 0 "#PWR0153" H 3750 750 50  0001 C CNN
-F 1 "+3V3" H 3800 1100 50  0000 C CNN
-F 2 "" H 3750 900 50  0001 C CNN
-F 3 "" H 3750 900 50  0001 C CNN
-	1    3750 900 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1600 6450 1250 6450
 Text Label 1600 6550 2    50   ~ 0
@@ -1216,4 +1206,15 @@ Wire Wire Line
 Text Label 1650 5250 2    50   ~ 0
 PA10
 NoConn ~ 4500 1300
+$Comp
+L my_power:Vstm32 #PWR?
+U 1 1 5CF57716
+P 3750 900
+F 0 "#PWR?" H 3750 750 50  0001 C CNN
+F 1 "Vstm32" H 3755 1073 50  0000 C CNN
+F 2 "" H 3750 900 50  0001 C CNN
+F 3 "" H 3750 900 50  0001 C CNN
+	1    3750 900 
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

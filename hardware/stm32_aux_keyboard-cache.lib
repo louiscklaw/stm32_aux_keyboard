@@ -475,6 +475,26 @@ X E E 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-components_I2C_HEADER,2.54
+#
+DEF taobao-components_I2C_HEADER,2.54 J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "taobao-components_I2C_HEADER,2.54" 0 -250 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" 0 -400 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ TTL*
+$ENDFPLIST
+DRAW
+S 34 -45 0 -55 1 1 6 F
+S 34 55 0 45 1 1 6 F
+P 2 1 1 6 50 -50 34 -50 N
+P 2 1 1 6 50 50 34 50 N
+X SCL SCL 200 -50 150 L 50 50 1 1 P
+X SDA SDA 200 50 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-components_LED_GREEN
 #
 DEF taobao-components_LED_GREEN D 0 10 N N 1 F N

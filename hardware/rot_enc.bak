@@ -21,7 +21,7 @@ P 3900 2700
 AR Path="/5CF34744/5D0A34E5" Ref="SW?"  Part="1" 
 AR Path="/5CFF7883/5D0A34E5" Ref="SW?"  Part="1" 
 F 0 "SW?" H 3900 2300 50  0000 C CNN
-F 1 "EC11_VERTICAL" H 3900 2400 50  0000 C CNN
+F 1 "ROT1" H 3900 2400 50  0000 C CNN
 F 2 "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm" H 3900 2350 50  0001 C CNN
 F 3 "https://item.taobao.com/item.htm?spm=a1z09.2.0.0.61152e8dxnonTp&id=532637189592&_u=rot8j1n8a4b" H 3900 2960 50  0001 C CNN
 	1    3900 2700

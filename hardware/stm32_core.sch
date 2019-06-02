@@ -1006,4 +1006,15 @@ F 3 "~" H 1900 7200 50  0001 C CNN
 $EndComp
 NoConn ~ 1900 7100
 NoConn ~ 1900 7300
+$Comp
+L taobao-components:I2C_HEADER,2.54 J?
+U 1 1 5D064141
+P 7850 5600
+F 0 "J?" H 7822 5624 50  0000 R CNN
+F 1 "I2C_HEADER,2.54" H 7822 5533 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7850 5200 50  0001 C CNN
+F 3 "" H 7850 5550 50  0001 C CNN
+	1    7850 5600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:stm32_aux_keyboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 13 13
 Title ""
 Date ""
 Rev ""

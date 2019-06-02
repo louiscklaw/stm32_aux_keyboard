@@ -1,0 +1,174 @@
+
+(session rot_enc.ses
+  (base_design rot_enc.dsn)
+  (placement
+    (resolution um 10)
+    (component "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
+      (place SW18 168000 -222200 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R30 280000 -225000 back 0)
+      (place R29 200000 -210000 back 180)
+      (place R28 200000 -270000 back 180)
+      (place C41 280000 -275000 back 180)
+      (place C40 200000 -250000 back 0)
+      (place C39 200000 -230000 back 0)
+    )
+    (component Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical
+      (place J7 180000 -330000 back 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path B.Cu 2500
+            288750 -275000
+            310200 -275000
+            313000 -272200
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            168000 -247200
+            288000 -247200
+            313000 -272200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            191250 -230000
+            191250 -247200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            191250 -247200
+            191250 -250000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            191250 -247200
+            168000 -247200
+          )
+        )
+      )
+      (net /A
+        (wire
+          (path B.Cu 2500
+            208750 -230000
+            200000 -238750
+            200000 -261250
+            208750 -270000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            180000 -330000
+            180000 -298750
+            208750 -270000
+          )
+        )
+      )
+      (net /B
+        (wire
+          (path B.Cu 2500
+            208750 -250000
+            217342 -241408
+            217342 -218592
+            208750 -210000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            208750 -250000
+            217740 -258990
+            217740 -296707
+            192700 -321747
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            192700 -330000
+            192700 -321747
+          )
+        )
+      )
+      (net /SW_OUT
+        (wire
+          (path B.Cu 2500
+            271250 -275000
+            271250 -225000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            205400 -321747
+            222244 -304903
+            222244 -289053
+            236297 -275000
+            271250 -275000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            205400 -330000
+            205400 -321747
+          )
+        )
+      )
+      (net "Net-(R28-Pad1)"
+        (wire
+          (path B.Cu 2500
+            191250 -270000
+            170200 -270000
+            168000 -272200
+          )
+        )
+      )
+      (net "Net-(R29-Pad1)"
+        (wire
+          (path B.Cu 2500
+            168000 -222200
+            181253 -222200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            191250 -210000
+            181253 -219997
+            181253 -222200
+          )
+        )
+      )
+      (net "Net-(R30-Pad1)"
+        (wire
+          (path B.Cu 2500
+            288750 -225000
+            310200 -225000
+            313000 -222200
+          )
+        )
+      )
+    )
+  )
+)

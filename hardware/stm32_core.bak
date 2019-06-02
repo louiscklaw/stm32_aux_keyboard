@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:stm32_aux_keyboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -456,7 +455,7 @@ U 1 1 5BDD943F
 P 8050 3950
 F 0 "D39" V 8096 3882 50  0000 R CNN
 F 1 "PC13" V 8005 3882 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8050 3950 50  0001 C CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 8050 3950 50  0001 C CNN
 F 3 "~" V 8050 3950 50  0001 C CNN
 	1    8050 3950
 	0    -1   -1   0   

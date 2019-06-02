@@ -1,0 +1,201 @@
+EESchema Schematic File Version 4
+LIBS:stm32_aux_keyboard-cache
+EELAYER 29 0
+EELAYER END
+$Descr User 8500 5500
+encoding utf-8
+Sheet 4 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR026
+U 1 1 5D0EA4C1
+P 2050 1600
+F 0 "#PWR026" H 2050 1450 50  0001 C CNN
+F 1 "+3V3" H 2065 1773 50  0000 C CNN
+F 2 "" H 2050 1600 50  0001 C CNN
+F 3 "" H 2050 1600 50  0001 C CNN
+	1    2050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_GREEN,0603 D3
+U 1 1 5D0EAAE1
+P 2050 2150
+F 0 "D3" V 2096 2082 50  0000 R CNN
+F 1 "USR_LED_1" V 2005 2082 50  0000 R CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 2050 2150 50  0001 C CNN
+F 3 "" V 2050 2150 50  0001 C CNN
+	1    2050 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0603 R7
+U 1 1 5D0EB0E2
+P 2050 1850
+F 0 "R7" H 2109 1896 50  0000 L CNN
+F 1 "R103,0603" H 2109 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2050 1850 50  0001 C CNN
+F 3 "~" H 2050 1850 50  0001 C CNN
+	1    2050 1850
+	1    0    0    -1  
+$EndComp
+Text Label 1500 2350 0    50   ~ 0
+USR_LED_1
+Wire Wire Line
+	1500 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 2250
+Wire Wire Line
+	2050 1950 2050 2050
+Wire Wire Line
+	2050 1600 2050 1750
+$Comp
+L power:+3V3 #PWR027
+U 1 1 5D0EC06B
+P 3200 1600
+F 0 "#PWR027" H 3200 1450 50  0001 C CNN
+F 1 "+3V3" H 3215 1773 50  0000 C CNN
+F 2 "" H 3200 1600 50  0001 C CNN
+F 3 "" H 3200 1600 50  0001 C CNN
+	1    3200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_GREEN,0603 D4
+U 1 1 5D0EC075
+P 3200 2150
+F 0 "D4" V 3246 2082 50  0000 R CNN
+F 1 "USR_LED_2" V 3155 2082 50  0000 R CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 3200 2150 50  0001 C CNN
+F 3 "" V 3200 2150 50  0001 C CNN
+	1    3200 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0603 R8
+U 1 1 5D0EC07F
+P 3200 1850
+F 0 "R8" H 3259 1896 50  0000 L CNN
+F 1 "R103,0603" H 3259 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 1850 50  0001 C CNN
+F 3 "~" H 3200 1850 50  0001 C CNN
+	1    3200 1850
+	1    0    0    -1  
+$EndComp
+Text Label 2650 2350 0    50   ~ 0
+USR_LED_2
+Wire Wire Line
+	2650 2350 3200 2350
+Wire Wire Line
+	3200 2350 3200 2250
+Wire Wire Line
+	3200 1950 3200 2050
+Wire Wire Line
+	3200 1600 3200 1750
+$Comp
+L power:+3V3 #PWR028
+U 1 1 5D0EC76C
+P 4300 1600
+F 0 "#PWR028" H 4300 1450 50  0001 C CNN
+F 1 "+3V3" H 4315 1773 50  0000 C CNN
+F 2 "" H 4300 1600 50  0001 C CNN
+F 3 "" H 4300 1600 50  0001 C CNN
+	1    4300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_GREEN,0603 D5
+U 1 1 5D0EC776
+P 4300 2150
+F 0 "D5" V 4346 2082 50  0000 R CNN
+F 1 "USR_LED_3" V 4255 2082 50  0000 R CNN
+F 2 "footprint-lib:LED_0603_1608Metric" V 4300 2150 50  0001 C CNN
+F 3 "" V 4300 2150 50  0001 C CNN
+	1    4300 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0603 R9
+U 1 1 5D0EC780
+P 4300 1850
+F 0 "R9" H 4359 1896 50  0000 L CNN
+F 1 "R103,0603" H 4359 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 1850 50  0001 C CNN
+F 3 "~" H 4300 1850 50  0001 C CNN
+	1    4300 1850
+	1    0    0    -1  
+$EndComp
+Text Label 3750 2350 0    50   ~ 0
+USR_LED_3
+Wire Wire Line
+	3750 2350 4300 2350
+Wire Wire Line
+	4300 2350 4300 2250
+Wire Wire Line
+	4300 1950 4300 2050
+Wire Wire Line
+	4300 1600 4300 1750
+Text Label 1550 700  2    50   ~ 0
+USR_LED_1
+Wire Wire Line
+	1550 700  1000 700 
+Text Label 1550 800  2    50   ~ 0
+USR_LED_2
+Wire Wire Line
+	1550 800  1000 800 
+Text Label 1550 900  2    50   ~ 0
+USR_LED_3
+Wire Wire Line
+	1550 900  1000 900 
+Text HLabel 1000 700  0    50   Input ~ 0
+USR_LED_1
+Text HLabel 1000 800  0    50   Input ~ 0
+USR_LED_2
+Text HLabel 1000 900  0    50   Input ~ 0
+USR_LED_3
+$Comp
+L power:+3V3 #PWR029
+U 1 1 5D5FA30F
+P 5200 1750
+F 0 "#PWR029" H 5200 1600 50  0001 C CNN
+F 1 "+3V3" H 5215 1923 50  0000 C CNN
+F 2 "" H 5200 1750 50  0001 C CNN
+F 3 "" H 5200 1750 50  0001 C CNN
+	1    5200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0603 C5
+U 1 1 5D5FA71C
+P 5200 1950
+F 0 "C5" H 5292 1996 50  0000 L CNN
+F 1 "C106,0603" H 5292 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 1950 50  0001 C CNN
+F 3 "~" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5D5FAE0A
+P 5200 2200
+F 0 "#PWR030" H 5200 1950 50  0001 C CNN
+F 1 "GND" H 5205 2027 50  0000 C CNN
+F 2 "" H 5200 2200 50  0001 C CNN
+F 3 "" H 5200 2200 50  0001 C CNN
+	1    5200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2050 5200 2200
+Wire Wire Line
+	5200 1750 5200 1850
+$EndSCHEMATC

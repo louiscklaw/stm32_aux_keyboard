@@ -7231,9 +7231,9 @@ D_SWDIO
 Text Label 13450 5000 2    50   ~ 0
 D_SWCLK
 Text Label 1600 800  2    50   ~ 0
-SWCLK
+D_SWCLK
 Text Label 1600 900  2    50   ~ 0
-SWDIO
+D_SWDIO
 Text HLabel 1150 800  0    50   Input ~ 0
 D_SWCLK
 Text HLabel 1150 900  0    50   Input ~ 0

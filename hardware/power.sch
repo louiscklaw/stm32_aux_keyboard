@@ -1142,10 +1142,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 5000 5150 5000
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP6
 U 1 1 5D0E8115
 P 5300 5000
-F 0 "TP?" V 5254 5188 50  0000 L CNN
+F 0 "TP6" V 5254 5188 50  0000 L CNN
 F 1 "TP_3V3" V 5345 5188 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5500 5000 50  0001 C CNN
 F 3 "~" H 5500 5000 50  0001 C CNN
@@ -1157,10 +1157,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 5150 4650 5150
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP7
 U 1 1 5D0E72FB
 P 4800 5150
-F 0 "TP?" V 4754 5338 50  0000 L CNN
+F 0 "TP7" V 4754 5338 50  0000 L CNN
 F 1 "TP_GND" V 4845 5338 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5000 5150 50  0001 C CNN
 F 3 "~" H 5000 5150 50  0001 C CNN
@@ -1172,10 +1172,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 5000 4650 5000
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP5
 U 1 1 5D0E6B9F
 P 4800 5000
-F 0 "TP?" V 4754 5188 50  0000 L CNN
+F 0 "TP5" V 4754 5188 50  0000 L CNN
 F 1 "TP_5V" V 4845 5188 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5000 5000 50  0001 C CNN
 F 3 "~" H 5000 5000 50  0001 C CNN
@@ -1512,8 +1512,8 @@ L my_solder_jumper:SolderJumper_2_Open_round JP?
 U 1 1 5D10DD1D
 P 9900 4300
 AR Path="/5CF35582/5D10DD1D" Ref="JP?"  Part="1" 
-AR Path="/5CF34646/5D10DD1D" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9900 4075 50  0000 C CNN
+AR Path="/5CF34646/5D10DD1D" Ref="JP4"  Part="1" 
+F 0 "JP4" H 9900 4075 50  0000 C CNN
 F 1 "BUZZER_EN" H 9900 4166 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9900 4300 50  0001 C CNN
 F 3 "~" H 9900 4300 50  0001 C CNN
@@ -1540,8 +1540,8 @@ L my_solder_jumper:SolderJumper_2_Open_round JP?
 U 1 1 5D10AC55
 P 9900 3950
 AR Path="/5CF35582/5D10AC55" Ref="JP?"  Part="1" 
-AR Path="/5CF34646/5D10AC55" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9900 3725 50  0000 C CNN
+AR Path="/5CF34646/5D10AC55" Ref="JP3"  Part="1" 
+F 0 "JP3" H 9900 3725 50  0000 C CNN
 F 1 "OLED_EN" H 9900 3816 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9900 3950 50  0001 C CNN
 F 3 "~" H 9900 3950 50  0001 C CNN
@@ -1557,8 +1557,8 @@ L my_solder_jumper:SolderJumper_2_Open_round JP?
 U 1 1 5D0FA2FF
 P 9900 3600
 AR Path="/5CF35582/5D0FA2FF" Ref="JP?"  Part="1" 
-AR Path="/5CF34646/5D0FA2FF" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9900 3375 50  0000 C CNN
+AR Path="/5CF34646/5D0FA2FF" Ref="JP2"  Part="1" 
+F 0 "JP2" H 9900 3375 50  0000 C CNN
 F 1 "STM32_EN" H 9900 3466 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9900 3600 50  0001 C CNN
 F 3 "~" H 9900 3600 50  0001 C CNN
@@ -1589,8 +1589,8 @@ L my_solder_jumper:SolderJumper_2_Open_round JP?
 U 1 1 5D0F1DE3
 P 9900 2800
 AR Path="/5CF35582/5D0F1DE3" Ref="JP?"  Part="1" 
-AR Path="/5CF34646/5D0F1DE3" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9900 2575 50  0000 C CNN
+AR Path="/5CF34646/5D0F1DE3" Ref="JP1"  Part="1" 
+F 0 "JP1" H 9900 2575 50  0000 C CNN
 F 1 "WS2812_EN" H 9900 2666 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9900 2800 50  0001 C CNN
 F 3 "~" H 9900 2800 50  0001 C CNN
@@ -1622,10 +1622,10 @@ F 3 "" H 10850 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP4
 U 1 1 5D64FF77
 P 10300 4400
-F 0 "TP?" H 10242 4426 50  0000 R CNN
+F 0 "TP4" H 10242 4426 50  0000 R CNN
 F 1 "TP_BUZZER" H 10242 4517 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10500 4400 50  0001 C CNN
 F 3 "~" H 10500 4400 50  0001 C CNN
@@ -1638,10 +1638,10 @@ Connection ~ 10300 4300
 Wire Wire Line
 	10300 4300 10850 4300
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP3
 U 1 1 5D650EC3
 P 10300 4050
-F 0 "TP?" H 10242 4076 50  0000 R CNN
+F 0 "TP3" H 10242 4076 50  0000 R CNN
 F 1 "TP_OLED" H 10242 4167 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10500 4050 50  0001 C CNN
 F 3 "~" H 10500 4050 50  0001 C CNN
@@ -1654,10 +1654,10 @@ Connection ~ 10300 3950
 Wire Wire Line
 	10300 3950 10850 3950
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP2
 U 1 1 5D651BFE
 P 10300 3650
-F 0 "TP?" H 10242 3676 50  0000 R CNN
+F 0 "TP2" H 10242 3676 50  0000 R CNN
 F 1 "TP_STM32" H 10242 3767 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10500 3650 50  0001 C CNN
 F 3 "~" H 10500 3650 50  0001 C CNN
@@ -1670,10 +1670,10 @@ Connection ~ 10300 3600
 Wire Wire Line
 	10300 3600 10850 3600
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP1
 U 1 1 5D654903
 P 10150 2900
-F 0 "TP?" H 10092 2926 50  0000 R CNN
+F 0 "TP1" H 10092 2926 50  0000 R CNN
 F 1 "TP_WS2812" H 10092 3017 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10350 2900 50  0001 C CNN
 F 3 "~" H 10350 2900 50  0001 C CNN

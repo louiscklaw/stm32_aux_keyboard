@@ -20,7 +20,7 @@ U 1 1 5CF38962
 P 3050 850
 F 0 "SW6" H 3050 1135 50  0000 C CNN
 F 1 "KEY11" H 3050 1044 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 1050 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 3050 1050 50  0001 C CNN
 F 3 "~" H 3050 1050 50  0001 C CNN
 	1    3050 850 
 	1    0    0    -1  
@@ -46,7 +46,7 @@ U 1 1 5CF3E618
 P 3050 1650
 F 0 "SW9" H 3050 1935 50  0000 C CNN
 F 1 "KEY21" H 3050 1844 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 1850 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 3050 1850 50  0001 C CNN
 F 3 "~" H 3050 1850 50  0001 C CNN
 	1    3050 1650
 	1    0    0    -1  
@@ -72,7 +72,7 @@ U 1 1 5CF3EEEC
 P 3050 2450
 F 0 "SW12" H 3050 2735 50  0000 C CNN
 F 1 "KEY31" H 3050 2644 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 2650 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 3050 2650 50  0001 C CNN
 F 3 "~" H 3050 2650 50  0001 C CNN
 	1    3050 2450
 	1    0    0    -1  
@@ -98,7 +98,7 @@ U 1 1 5CF3EF02
 P 3050 3250
 F 0 "SW15" H 3050 3535 50  0000 C CNN
 F 1 "KEY41" H 3050 3444 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 3050 3450 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 3050 3450 50  0001 C CNN
 F 3 "~" H 3050 3450 50  0001 C CNN
 	1    3050 3250
 	1    0    0    -1  
@@ -124,7 +124,7 @@ U 1 1 5CF44234
 P 4150 850
 F 0 "SW7" H 4150 1135 50  0000 C CNN
 F 1 "KEY12" H 4150 1044 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 1050 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 4150 1050 50  0001 C CNN
 F 3 "~" H 4150 1050 50  0001 C CNN
 	1    4150 850 
 	1    0    0    -1  
@@ -150,7 +150,7 @@ U 1 1 5CF4424A
 P 4150 1650
 F 0 "SW10" H 4150 1935 50  0000 C CNN
 F 1 "KEY22" H 4150 1844 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 1850 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 4150 1850 50  0001 C CNN
 F 3 "~" H 4150 1850 50  0001 C CNN
 	1    4150 1650
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 5CF44260
 P 4150 2450
 F 0 "SW13" H 4150 2735 50  0000 C CNN
 F 1 "KEY32" H 4150 2644 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 2650 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 4150 2650 50  0001 C CNN
 F 3 "~" H 4150 2650 50  0001 C CNN
 	1    4150 2450
 	1    0    0    -1  
@@ -202,7 +202,7 @@ U 1 1 5CF44276
 P 4150 3250
 F 0 "SW16" H 4150 3535 50  0000 C CNN
 F 1 "KEY42" H 4150 3444 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 4150 3450 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 4150 3450 50  0001 C CNN
 F 3 "~" H 4150 3450 50  0001 C CNN
 	1    4150 3250
 	1    0    0    -1  
@@ -228,7 +228,7 @@ U 1 1 5CF46C3C
 P 5150 850
 F 0 "SW8" H 5150 1135 50  0000 C CNN
 F 1 "KEY13" H 5150 1044 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 1050 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 5150 1050 50  0001 C CNN
 F 3 "~" H 5150 1050 50  0001 C CNN
 	1    5150 850 
 	1    0    0    -1  
@@ -254,7 +254,7 @@ U 1 1 5CF46C52
 P 5150 1650
 F 0 "SW11" H 5150 1935 50  0000 C CNN
 F 1 "KEY23" H 5150 1844 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 1850 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 5150 1850 50  0001 C CNN
 F 3 "~" H 5150 1850 50  0001 C CNN
 	1    5150 1650
 	1    0    0    -1  
@@ -280,7 +280,7 @@ U 1 1 5CF46C68
 P 5150 2450
 F 0 "SW14" H 5150 2735 50  0000 C CNN
 F 1 "KEY33" H 5150 2644 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 2650 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 5150 2650 50  0001 C CNN
 F 3 "~" H 5150 2650 50  0001 C CNN
 	1    5150 2450
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 5CF46C7E
 P 5150 3250
 F 0 "SW17" H 5150 3535 50  0000 C CNN
 F 1 "KEY43" H 5150 3444 50  0000 C CNN
-F 2 "footprints-lib:cherry_mx_without_led_100H" H 5150 3450 50  0001 C CNN
+F 2 "footprint-lib:cherry_mx_without_led_100H" H 5150 3450 50  0001 C CNN
 F 3 "~" H 5150 3450 50  0001 C CNN
 	1    5150 3250
 	1    0    0    -1  

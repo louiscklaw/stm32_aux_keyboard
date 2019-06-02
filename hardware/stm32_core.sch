@@ -490,10 +490,10 @@ F 3 "~" H 4000 900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L my_solder_jumper:SolderJumper_3_Bridged12 JP?
+L my_solder_jumper:SolderJumper_3_Bridged12 JP7
 U 1 1 5CF7DD63
 P 9300 1600
-F 0 "JP?" V 9346 1668 50  0000 L CNN
+F 0 "JP7" V 9346 1668 50  0000 L CNN
 F 1 "BOOT0" V 9255 1668 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 9300 1600 50  0001 C CNN
 F 3 "~" H 9300 1600 50  0001 C CNN
@@ -501,10 +501,10 @@ F 3 "~" H 9300 1600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L my_solder_jumper:SolderJumper_3_Bridged12 JP?
+L my_solder_jumper:SolderJumper_3_Bridged12 JP8
 U 1 1 5CF7E819
 P 10150 1600
-F 0 "JP?" V 10196 1668 50  0000 L CNN
+F 0 "JP8" V 10196 1668 50  0000 L CNN
 F 1 "BOOT1" V 10105 1668 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 10150 1600 50  0001 C CNN
 F 3 "~" H 10150 1600 50  0001 C CNN

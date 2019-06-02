@@ -6171,10 +6171,10 @@ F 3 "" H 4450 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_testpoint:TestPoint_2mm TP?
+L my_testpoint:TestPoint_2mm TP8
 U 1 1 5CF8BD26
 P 4600 7200
-F 0 "TP?" V 4554 7388 50  0000 L CNN
+F 0 "TP8" V 4554 7388 50  0000 L CNN
 F 1 "TP_VUSB1" V 4645 7388 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4800 7200 50  0001 C CNN
 F 3 "~" H 4800 7200 50  0001 C CNN
@@ -6193,10 +6193,10 @@ Wire Wire Line
 Wire Wire Line
 	4450 7800 6350 7800
 $Comp
-L taobao-rpack:RN_221,0603 RN?
+L taobao-rpack:RN_221,0603 RN4
 U 1 1 5CF99338
 P 6700 8750
-F 0 "RN?" V 6283 8750 50  0000 C CNN
+F 0 "RN4" V 6283 8750 50  0000 C CNN
 F 1 "RN_221,0603" V 6374 8750 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6975 8750 50  0001 C CNN
 F 3 "~" H 6700 8750 50  0001 C CNN
@@ -6784,10 +6784,10 @@ F 3 "" H 14550 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-rpack:RN_221,0603 RN?
+L taobao-rpack:RN_221,0603 RN3
 U 1 1 5D0FD752
 P 14150 8400
-F 0 "RN?" V 13733 8400 50  0000 C CNN
+F 0 "RN3" V 13733 8400 50  0000 C CNN
 F 1 "RN_221,0603" V 13824 8400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 14425 8400 50  0001 C CNN
 F 3 "~" H 14150 8400 50  0001 C CNN
@@ -6859,10 +6859,10 @@ T_JTMS
 Text Label 12000 5000 0    50   ~ 0
 T_JTCK
 $Comp
-L my_solder_jumper:SolderJumper_2_Open_round JP?
+L my_solder_jumper:SolderJumper_2_Open_round JP6
 U 1 1 5D166FFC
 P 11800 4950
-F 0 "JP?" V 11754 4863 50  0000 R CNN
+F 0 "JP6" V 11754 4863 50  0000 R CNN
 F 1 "SWD_SWD_EN" V 11845 4863 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11800 4950 50  0001 C CNN
 F 3 "~" H 11800 4950 50  0001 C CNN
@@ -6909,10 +6909,10 @@ F 3 "" H 11900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_solder_jumper:SolderJumper_2_Open_round JP?
+L my_solder_jumper:SolderJumper_2_Open_round JP5
 U 1 1 5D196ACA
 P 11900 3250
-F 0 "JP?" V 11854 3163 50  0000 R CNN
+F 0 "JP5" V 11854 3163 50  0000 R CNN
 F 1 "SWD_3V3_EN" V 11945 3163 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11900 3250 50  0001 C CNN
 F 3 "~" H 11900 3250 50  0001 C CNN
@@ -6926,10 +6926,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 3300 4100 3300
 $Comp
-L taobao-rpack:RN_472,0603 RN?
+L taobao-rpack:RN_472,0603 RN2
 U 1 1 5D1C71FE
 P 1400 4550
-F 0 "RN?" V 983 4550 50  0000 C CNN
+F 0 "RN2" V 983 4550 50  0000 C CNN
 F 1 "RN_472,0603" V 1074 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 1675 4550 50  0001 C CNN
 F 3 "~" H 1400 4550 50  0001 C CNN

@@ -1,0 +1,155 @@
+
+(session buzzer.ses
+  (base_design buzzer.dsn)
+  (placement
+    (resolution um 10)
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R15 405000 -635000 front 0)
+      (place C25 400000 -585000 front 0)
+    )
+    (component "footprint-lib:9013,J3,SOT23"
+      (place Q1 405000 -610000 front 270)
+    )
+    (component Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical
+      (place J3 445000 -635000 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123"
+      (place D24 409000 -561500 front 0)
+    )
+    (component "footprint-lib:MLT-8530"
+      (place BZ1 325000 -600000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(BZ1-PadN)"
+        (wire
+          (path F.Cu 2500
+            415600 -610000
+            415600 -603747
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            421624 -561500
+            421624 -597723
+            415600 -603747
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            421624 -561500
+            417747 -561500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            425500 -561500
+            421624 -561500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            360000 -565000
+            375753 -565000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            375753 -565000
+            375753 -562607
+            386114 -552246
+            408493 -552246
+            417747 -561500
+          )
+        )
+      )
+      (net Vbuzzer
+        (wire
+          (path F.Cu 2500
+            360000 -635000
+            360000 -616250
+            391250 -585000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            392500 -561500
+            392500 -583750
+            391250 -585000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2500
+            404812 -614340
+            404812 -588938
+            408750 -585000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            399652 -619500
+            404812 -614340
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            445000 -622300
+            412772 -622300
+            404812 -614340
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            394400 -619500
+            399652 -619500
+          )
+        )
+      )
+      (net /BUZZER_IN
+        (wire
+          (path F.Cu 2500
+            445000 -635000
+            413750 -635000
+          )
+        )
+      )
+      (net "Net-(Q1-Pad1)"
+        (wire
+          (path F.Cu 2500
+            394400 -600500
+            394400 -606753
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            394400 -606753
+            386146 -615007
+            386146 -624896
+            396250 -635000
+          )
+        )
+      )
+    )
+  )
+)

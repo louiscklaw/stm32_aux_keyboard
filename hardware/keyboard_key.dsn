@@ -1,0 +1,206 @@
+(pcb /home/logic/_workspace/kicad/PCBs/stm32_aux_keyboard/hardware/keyboard_key.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  94474.2 -74474.2  15525.8 -74474.2  15525.8 -14901.2
+            94474.2 -14901.2  94474.2 -74474.2)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "footprint-lib:cherry_mx_without_led_100H"
+      (place SW17 85000 -65000 front 180 (PN KEY43))
+      (place SW16 25000 -65000 front 180 (PN KEY42))
+      (place SW15 45000 -65000 front 180 (PN KEY41))
+      (place SW14 65000 -65000 front 180 (PN KEY33))
+      (place SW13 85000 -45000 front 180 (PN KEY32))
+      (place SW12 65000 -45000 front 180 (PN KEY31))
+      (place SW11 45000 -45000 front 180 (PN KEY23))
+      (place SW10 25000 -45000 front 180 (PN KEY22))
+      (place SW9 85000 -25000 front 180 (PN KEY21))
+      (place SW8 65000 -25000 front 180 (PN KEY13))
+      (place SW7 45000 -25000 front 180 (PN KEY12))
+      (place SW6 25000 -25000 front 180 (PN KEY11))
+    )
+    (component "Diode_SMD:D_SOD-123"
+      (place D38 80000 -60000 back 90 (PN D_1N4148_T4))
+      (place D37 20000 -60000 back 90 (PN D_1N4148_T4))
+      (place D36 40000 -60000 back 90 (PN D_1N4148_T4))
+      (place D35 60000 -60000 back 90 (PN D_1N4148_T4))
+      (place D34 80000 -40000 back 90 (PN D_1N4148_T4))
+      (place D33 60000 -40000 back 90 (PN D_1N4148_T4))
+      (place D32 40000 -40000 back 90 (PN D_1N4148_T4))
+      (place D31 20000 -40000 back 90 (PN D_1N4148_T4))
+      (place D30 80000 -20000 back 90 (PN D_1N4148_T4))
+      (place D29 60000 -20000 back 90 (PN D_1N4148_T4))
+      (place D28 40000 -20000 back 90 (PN D_1N4148_T4))
+      (place D27 20000 -20000 back 90 (PN D_1N4148_T4))
+    )
+  )
+  (library
+    (image "footprint-lib:cherry_mx_without_led_100H"
+      (outline (path signal 152.4  -6350 6350  6350 6350))
+      (outline (path signal 152.4  6350 6350  6350 -6350))
+      (outline (path signal 152.4  6350 -6350  -6350 -6350))
+      (outline (path signal 152.4  -6350 -6350  -6350 6350))
+      (outline (path signal 152.4  -9398 9398  9398 9398))
+      (outline (path signal 152.4  9398 9398  9398 -9398))
+      (outline (path signal 152.4  9398 -9398  -9398 -9398))
+      (outline (path signal 152.4  -9398 -9398  -9398 9398))
+      (outline (path signal 381  -6350 6350  -4572 6350))
+      (outline (path signal 381  4572 6350  6350 6350))
+      (outline (path signal 381  6350 6350  6350 4572))
+      (outline (path signal 381  6350 -4572  6350 -6350))
+      (outline (path signal 381  6350 -6350  4572 -6350))
+      (outline (path signal 381  -4572 -6350  -6350 -6350))
+      (outline (path signal 381  -6350 -6350  -6350 -4572))
+      (outline (path signal 381  -6350 4572  -6350 6350))
+      (outline (path signal 152.4  -6985 6985  6985 6985))
+      (outline (path signal 152.4  6985 6985  6985 -6985))
+      (outline (path signal 152.4  6985 -6985  -6985 -6985))
+      (outline (path signal 152.4  -6985 -6985  -6985 6985))
+      (pin Round[A]Pad_2286_um 1 2540 5080)
+      (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+      (keepout "" (circle F.Cu 1800 -5080 0))
+      (keepout "" (circle B.Cu 1800 -5080 0))
+      (keepout "" (circle F.Cu 1800 5080 0))
+      (keepout "" (circle B.Cu 1800 5080 0))
+    )
+    (image "Diode_SMD:D_SOD-123"
+      (outline (path signal 120  -2250 1000  1650 1000))
+      (outline (path signal 120  -2250 -1000  1650 -1000))
+      (outline (path signal 50  -2350 1150  -2350 -1150))
+      (outline (path signal 50  2350 -1150  -2350 -1150))
+      (outline (path signal 50  2350 1150  2350 -1150))
+      (outline (path signal 50  -2350 1150  2350 1150))
+      (outline (path signal 100  -1400 900  1400 900))
+      (outline (path signal 100  1400 900  1400 -900))
+      (outline (path signal 100  1400 -900  -1400 -900))
+      (outline (path signal 100  -1400 -900  -1400 900))
+      (outline (path signal 100  -750 0  -350 0))
+      (outline (path signal 100  -350 0  -350 550))
+      (outline (path signal 100  -350 0  -350 -550))
+      (outline (path signal 100  -350 0  250 400))
+      (outline (path signal 100  250 400  250 -400))
+      (outline (path signal 100  250 -400  -350 0))
+      (outline (path signal 100  250 0  750 0))
+      (outline (path signal 120  -2250 1000  -2250 -1000))
+      (pin Rect[T]Pad_900x1200_um 2 1650 0)
+      (pin Rect[T]Pad_900x1200_um 1 -1650 0)
+    )
+    (padstack Round[A]Pad_2286_um
+      (shape (circle F.Cu 2286))
+      (shape (circle B.Cu 2286))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x1200_um
+      (shape (rect F.Cu -450 -600 450 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(D27-Pad2)"
+      (pins SW6-1 D27-2)
+    )
+    (net /ROW1
+      (pins D29-1 D28-1 D27-1)
+    )
+    (net "Net-(D28-Pad2)"
+      (pins SW7-1 D28-2)
+    )
+    (net "Net-(D29-Pad2)"
+      (pins SW8-1 D29-2)
+    )
+    (net "Net-(D30-Pad2)"
+      (pins SW9-1 D30-2)
+    )
+    (net /ROW2
+      (pins D32-1 D31-1 D30-1)
+    )
+    (net "Net-(D31-Pad2)"
+      (pins SW10-1 D31-2)
+    )
+    (net "Net-(D32-Pad2)"
+      (pins SW11-1 D32-2)
+    )
+    (net "Net-(D33-Pad2)"
+      (pins SW12-1 D33-2)
+    )
+    (net /ROW3
+      (pins D35-1 D34-1 D33-1)
+    )
+    (net "Net-(D34-Pad2)"
+      (pins SW13-1 D34-2)
+    )
+    (net "Net-(D35-Pad2)"
+      (pins SW14-1 D35-2)
+    )
+    (net "Net-(D36-Pad2)"
+      (pins SW15-1 D36-2)
+    )
+    (net /ROW4
+      (pins D38-1 D37-1 D36-1)
+    )
+    (net "Net-(D37-Pad2)"
+      (pins SW16-1 D37-2)
+    )
+    (net "Net-(D38-Pad2)"
+      (pins SW17-1 D38-2)
+    )
+    (net /COL1
+      (pins SW15-2 SW12-2 SW9-2 SW6-2)
+    )
+    (net /COL2
+      (pins SW16-2 SW13-2 SW10-2 SW7-2)
+    )
+    (net /COL3
+      (pins SW17-2 SW14-2 SW11-2 SW8-2)
+    )
+    (class kicad_default "" /COL1 /COL2 /COL3 /ROW1 /ROW2 /ROW3 /ROW4 "Net-(D27-Pad2)"
+      "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)"
+      "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)"
+      "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -619,81 +619,6 @@ F 3 "~" H 8050 4250 50  0001 C CNN
 	1    8050 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 5200 8250 5650
-Text Label 7850 5200 3    50   ~ 0
-PC15
-Wire Wire Line
-	7850 5200 7850 5650
-Text Label 8250 5200 3    50   ~ 0
-PC14
-Wire Wire Line
-	8250 6050 8250 5950
-Wire Wire Line
-	7850 6050 7850 5950
-Wire Wire Line
-	8050 6050 8250 6050
-Wire Wire Line
-	8050 6050 7850 6050
-Connection ~ 8050 6050
-Wire Wire Line
-	8050 6200 8050 6050
-Wire Wire Line
-	8150 6200 8050 6200
-$Comp
-L power:GND #PWR017
-U 1 1 5BCC0C02
-P 8150 6200
-F 0 "#PWR017" H 8150 5950 50  0001 C CNN
-F 1 "GND" H 8155 6027 50  0000 C CNN
-F 2 "" H 8150 6200 50  0001 C CNN
-F 3 "" H 8150 6200 50  0001 C CNN
-	1    8150 6200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7850 5650 7950 5650
-Connection ~ 7850 5650
-Wire Wire Line
-	7850 5750 7850 5650
-Wire Wire Line
-	8250 5650 8150 5650
-Connection ~ 8250 5650
-Wire Wire Line
-	8250 5750 8250 5650
-$Comp
-L taobao-c:C20pf C18
-U 1 1 5BCBF22D
-P 8250 5850
-F 0 "C18" V 8021 5850 50  0000 C CNN
-F 1 "C20pf" V 8112 5850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8250 5850 50  0001 C CNN
-F 3 "~" H 8250 5850 50  0001 C CNN
-	1    8250 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-c:C20pf C17
-U 1 1 5BCBF1ED
-P 7850 5850
-F 0 "C17" V 7621 5850 50  0000 C CNN
-F 1 "C20pf" V 7712 5850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7850 5850 50  0001 C CNN
-F 3 "~" H 7850 5850 50  0001 C CNN
-	1    7850 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:O_EPSON_32.768K Y2
-U 1 1 5BCBF11C
-P 8050 5650
-F 0 "Y2" V 8004 5738 50  0000 L CNN
-F 1 "O32.768K" V 8095 5738 50  0000 L CNN
-F 2 "footprint-lib:MC-306" H 8050 5650 50  0001 C CNN
-F 3 "~" H 8050 5650 50  0001 C CNN
-	1    8050 5650
-	1    0    0    -1  
-$EndComp
 Connection ~ 7150 6050
 Wire Wire Line
 	7150 6050 7100 6050
@@ -955,12 +880,8 @@ Wire Wire Line
 Connection ~ 9650 5950
 Wire Wire Line
 	9650 5950 10200 5950
-Text Label 9900 5350 2    50   ~ 0
-VCC3V3
 Wire Wire Line
 	9400 5350 9400 5550
-Wire Wire Line
-	9400 5350 9900 5350
 Wire Wire Line
 	9400 5550 9650 5550
 Wire Wire Line
@@ -1047,9 +968,9 @@ Wire Wire Line
 	10150 1050 10150 1400
 Connection ~ 9700 1050
 Text Label 1650 650  2    50   ~ 0
-SDA
+PB7
 Text Label 1650 750  2    50   ~ 0
-SCL
+PB6
 Text HLabel 1100 650  0    50   Input ~ 0
 SDA
 Text HLabel 1100 750  0    50   Input ~ 0
@@ -1201,7 +1122,7 @@ PB14
 Text Label 1650 4000 2    50   ~ 0
 PB15
 Text Label 1650 4250 2    50   ~ 0
-PC14
+PA0
 Text HLabel 1100 4550 0    50   Input ~ 0
 SWCLK
 Wire Wire Line
@@ -1226,4 +1147,90 @@ Wire Wire Line
 	1650 5000 1100 5000
 Text Label 1650 5000 2    50   ~ 0
 PA11
+$Comp
+L my_power:Vstm32 #PWR?
+U 1 1 5D45FAEE
+P 9400 5350
+F 0 "#PWR?" H 9400 5200 50  0001 C CNN
+F 1 "Vstm32" H 9405 5523 50  0000 C CNN
+F 2 "" H 9400 5350 50  0001 C CNN
+F 3 "" H 9400 5350 50  0001 C CNN
+	1    9400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:O_EPSON_32.768K Y2
+U 1 1 5BCBF11C
+P 8050 5650
+F 0 "Y2" V 8004 5738 50  0000 L CNN
+F 1 "O32.768K" V 8095 5738 50  0000 L CNN
+F 2 "footprint-lib:MC-306" H 8050 5650 50  0001 C CNN
+F 3 "~" H 8050 5650 50  0001 C CNN
+	1    8050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C20pf C17
+U 1 1 5BCBF1ED
+P 7850 5850
+F 0 "C17" V 7621 5850 50  0000 C CNN
+F 1 "C20pf" V 7712 5850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7850 5850 50  0001 C CNN
+F 3 "~" H 7850 5850 50  0001 C CNN
+	1    7850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C20pf C18
+U 1 1 5BCBF22D
+P 8250 5850
+F 0 "C18" V 8021 5850 50  0000 C CNN
+F 1 "C20pf" V 8112 5850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8250 5850 50  0001 C CNN
+F 3 "~" H 8250 5850 50  0001 C CNN
+	1    8250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5750 8250 5650
+Wire Wire Line
+	8250 5650 8150 5650
+Wire Wire Line
+	7850 5750 7850 5650
+Wire Wire Line
+	7850 5650 7950 5650
+$Comp
+L power:GND #PWR017
+U 1 1 5BCC0C02
+P 8150 6200
+F 0 "#PWR017" H 8150 5950 50  0001 C CNN
+F 1 "GND" H 8155 6027 50  0000 C CNN
+F 2 "" H 8150 6200 50  0001 C CNN
+F 3 "" H 8150 6200 50  0001 C CNN
+	1    8150 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 6200 8050 6200
+Wire Wire Line
+	8050 6200 8050 6050
+Wire Wire Line
+	8050 6050 7850 6050
+Connection ~ 8050 6050
+Wire Wire Line
+	8050 6050 8250 6050
+Wire Wire Line
+	7850 6050 7850 5950
+Wire Wire Line
+	8250 6050 8250 5950
+Text Label 8250 5200 3    50   ~ 0
+PC14
+Connection ~ 7850 5650
+Wire Wire Line
+	7850 5200 7850 5650
+Text Label 7850 5200 3    50   ~ 0
+PC15
+Connection ~ 8250 5650
+Wire Wire Line
+	8250 5200 8250 5650
 $EndSCHEMATC

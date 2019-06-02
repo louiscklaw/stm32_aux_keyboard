@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 3 13
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
@@ -30867,4 +30867,23 @@ F 3 "" H 2450 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 1700 2450 1950
+$Comp
+L taobao-components:I2C_HEADER,2.54 J?
+U 1 1 5D459F93
+P 900 1250
+F 0 "J?" H 872 1182 50  0000 R CNN
+F 1 "I2C_HEADER,2.54" H 872 1273 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 900 850 50  0001 C CNN
+F 3 "" H 900 1200 50  0001 C CNN
+	1    900  1250
+	1    0    0    1   
+$EndComp
+Text Label 1600 1300 2    50   ~ 0
+SDA
+Text Label 1600 1200 2    50   ~ 0
+SCL
+Wire Wire Line
+	1100 1200 1600 1200
+Wire Wire Line
+	1600 1300 1100 1300
 $EndSCHEMATC

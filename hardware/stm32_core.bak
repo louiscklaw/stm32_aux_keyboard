@@ -476,10 +476,8 @@ Wire Wire Line
 	8050 4050 8050 4150
 Wire Wire Line
 	8050 4350 8050 4450
-Text Label 8050 3600 3    50   ~ 0
+Text Label 7700 3650 0    50   ~ 0
 PC13
-Wire Wire Line
-	8050 3600 8050 3850
 $Comp
 L taobao-c:C104,0603 C1
 U 1 1 5CF509E8
@@ -534,17 +532,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 4400 50  
 F 3 "~" H 9650 4400 50  0001 C CNN
 	1    9650 4400
 	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-button:SW_RESET,2_leg,SMD SW1
-U 1 1 5CF92D41
-P 9350 4400
-F 0 "SW1" V 9396 4548 50  0000 L CNN
-F 1 "RESET" V 9305 4548 50  0000 L CNN
-F 2 "footprint-lib:SW_SPST_CK_RS282G05A3" H 9350 4600 50  0001 C CNN
-F 3 "~" H 9350 4600 50  0001 C CNN
-	1    9350 4400
-	0    -1   -1   0   
 $EndComp
 $Comp
 L taobao-r:R511,0603 R6
@@ -1173,7 +1160,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 6250 1250 6450
 Text Label 1600 7000 2    50   ~ 0
-VSS_4
+VSSA
 Text Label 1600 7100 2    50   ~ 0
 VSS_3
 Wire Wire Line
@@ -1202,4 +1189,19 @@ Wire Wire Line
 	4050 5450 4350 5450
 Wire Wire Line
 	4050 5000 4350 5000
+Wire Wire Line
+	8050 3650 8050 3850
+Wire Wire Line
+	7700 3650 8050 3650
+$Comp
+L taobao-button:SW_RESET,2_leg,SMD SW?
+U 1 1 5D5B9C66
+P 9350 4400
+F 0 "SW?" V 9396 4352 50  0000 R CNN
+F 1 "SW_RESET,2_leg,SMD" V 9305 4352 50  0000 R CNN
+F 2 "footprint-lib:SW_SPST_CK_RS282G05A3" H 9350 4600 50  0001 C CNN
+F 3 "~" H 9350 4600 50  0001 C CNN
+	1    9350 4400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

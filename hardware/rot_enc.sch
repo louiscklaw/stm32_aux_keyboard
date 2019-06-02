@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 6 11
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -18,6 +18,8 @@ $Comp
 L taobao-components:EC11_VERTICAL SW?
 U 1 1 5D0A34E5
 P 3900 2700
+AR Path="/5CF34744/5D0A34E5" Ref="SW?"  Part="1" 
+AR Path="/5CFF7883/5D0A34E5" Ref="SW?"  Part="1" 
 F 0 "SW?" H 3900 2300 50  0000 C CNN
 F 1 "EC11_VERTICAL" H 3900 2400 50  0000 C CNN
 F 2 "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm" H 3900 2350 50  0001 C CNN
@@ -333,22 +335,10 @@ E4 02 69 12 81 20 17 48 93 08 04 B9 F8 7F 6F 39 AC E3 AE 64 EE 23 00 00 00 00 49
 60 82 
 EndData
 $EndBitmap
-Text HLabel 1000 800  0    50   Input ~ 0
-A
-Text HLabel 1000 950  0    50   Input ~ 0
-B
-Text Label 1700 800  2    50   ~ 0
-ROT_ENC_A
-Text Label 1700 950  2    50   ~ 0
-ROT_ENC_B
 Wire Wire Line
 	1000 800  1700 800 
 Wire Wire Line
 	1700 950  1000 950 
-Text HLabel 1000 1100 0    50   Input ~ 0
-SW_OUT
-Text Label 1700 1100 2    50   ~ 0
-ROT_ENC_SW
 Wire Wire Line
 	1700 1100 1000 1100
 $Bitmap
@@ -1464,6 +1454,8 @@ $Comp
 L taobao-r:R273,0603 R?
 U 1 1 5CED60AF
 P 3150 2300
+AR Path="/5CF34744/5CED60AF" Ref="R?"  Part="1" 
+AR Path="/5CFF7883/5CED60AF" Ref="R?"  Part="1" 
 F 0 "R?" V 2900 2300 50  0000 C CNN
 F 1 "R273,0603" V 3000 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 2300 50  0001 C CNN
@@ -1475,6 +1467,8 @@ $Comp
 L taobao-r:R273,0603 R?
 U 1 1 5CED6622
 P 3150 2800
+AR Path="/5CF34744/5CED6622" Ref="R?"  Part="1" 
+AR Path="/5CFF7883/5CED6622" Ref="R?"  Part="1" 
 F 0 "R?" V 2900 2800 50  0000 C CNN
 F 1 "R273,0603" V 3000 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 2800 50  0001 C CNN
@@ -1486,6 +1480,8 @@ $Comp
 L taobao-r:R273,0603 R?
 U 1 1 5CED67EF
 P 3150 3250
+AR Path="/5CF34744/5CED67EF" Ref="R?"  Part="1" 
+AR Path="/5CFF7883/5CED67EF" Ref="R?"  Part="1" 
 F 0 "R?" V 2900 3250 50  0000 C CNN
 F 1 "R273,0603" V 3000 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 3250 50  0001 C CNN
@@ -1497,6 +1493,8 @@ $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5CED6CD1
 P 2800 3450
+AR Path="/5CF34744/5CED6CD1" Ref="C?"  Part="1" 
+AR Path="/5CFF7883/5CED6CD1" Ref="C?"  Part="1" 
 F 0 "C?" H 2900 3500 50  0000 L CNN
 F 1 "C104,0603" H 2900 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 3450 50  0001 C CNN
@@ -1508,6 +1506,8 @@ $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5CED7298
 P 2800 2950
+AR Path="/5CF34744/5CED7298" Ref="C?"  Part="1" 
+AR Path="/5CFF7883/5CED7298" Ref="C?"  Part="1" 
 F 0 "C?" H 2900 3000 50  0000 L CNN
 F 1 "C104,0603" H 2900 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 2950 50  0001 C CNN
@@ -1519,6 +1519,8 @@ $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5CED75A5
 P 2800 2500
+AR Path="/5CF34744/5CED75A5" Ref="C?"  Part="1" 
+AR Path="/5CFF7883/5CED75A5" Ref="C?"  Part="1" 
 F 0 "C?" H 2900 2550 50  0000 L CNN
 F 1 "C104,0603" H 2900 2500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 2500 50  0001 C CNN
@@ -1542,6 +1544,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5CED86F3
 P 2800 2650
+AR Path="/5CF34744/5CED86F3" Ref="#PWR?"  Part="1" 
+AR Path="/5CFF7883/5CED86F3" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2800 2400 50  0001 C CNN
 F 1 "GND" H 2850 2450 50  0000 C CNN
 F 2 "" H 2800 2650 50  0001 C CNN
@@ -1555,6 +1559,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5CED8B04
 P 2800 3100
+AR Path="/5CF34744/5CED8B04" Ref="#PWR?"  Part="1" 
+AR Path="/5CFF7883/5CED8B04" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2800 2850 50  0001 C CNN
 F 1 "GND" H 2850 2900 50  0000 C CNN
 F 2 "" H 2800 3100 50  0001 C CNN
@@ -1568,6 +1574,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5CED8F95
 P 2800 3600
+AR Path="/5CF34744/5CED8F95" Ref="#PWR?"  Part="1" 
+AR Path="/5CFF7883/5CED8F95" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2800 3350 50  0001 C CNN
 F 1 "GND" H 2850 3400 50  0000 C CNN
 F 2 "" H 2800 3600 50  0001 C CNN
@@ -1581,6 +1589,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5CED947F
 P 3350 2600
+AR Path="/5CF34744/5CED947F" Ref="#PWR?"  Part="1" 
+AR Path="/5CFF7883/5CED947F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3350 2350 50  0001 C CNN
 F 1 "GND" H 3400 2400 50  0000 C CNN
 F 2 "" H 3350 2600 50  0001 C CNN
@@ -1592,6 +1602,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5CED96CA
 P 4400 2900
+AR Path="/5CF34744/5CED96CA" Ref="#PWR?"  Part="1" 
+AR Path="/5CFF7883/5CED96CA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4400 2650 50  0001 C CNN
 F 1 "GND" H 4450 2700 50  0000 C CNN
 F 2 "" H 4400 2900 50  0001 C CNN
@@ -1636,10 +1648,24 @@ Connection ~ 2800 2800
 Wire Wire Line
 	2000 3250 2800 3250
 Connection ~ 2800 3250
+Wire Wire Line
+	1800 2300 1300 2300
+Wire Wire Line
+	1800 2200 1300 2200
+Wire Wire Line
+	1800 2100 1300 2100
+Text Label 1800 2300 2    50   ~ 0
+ROT_ENC_SW
+Text Label 1800 2200 2    50   ~ 0
+ROT_ENC_B
+Text Label 1800 2100 2    50   ~ 0
+ROT_ENC_A
 $Comp
 L Connector:Conn_01x03_Female J?
 U 1 1 5CF225E9
 P 1100 2200
+AR Path="/5CF34744/5CF225E9" Ref="J?"  Part="1" 
+AR Path="/5CFF7883/5CF225E9" Ref="J?"  Part="1" 
 F 0 "J?" H 950 2500 50  0000 C CNN
 F 1 "ROT_ENC_HEADER" H 950 2400 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1100 2200 50  0001 C CNN
@@ -1647,16 +1673,16 @@ F 3 "~" H 1100 2200 50  0001 C CNN
 	1    1100 2200
 	-1   0    0    -1  
 $EndComp
-Text Label 1800 2100 2    50   ~ 0
-ROT_ENC_A
-Text Label 1800 2200 2    50   ~ 0
-ROT_ENC_B
-Text Label 1800 2300 2    50   ~ 0
+Text HLabel 1000 1100 0    50   Input ~ 0
+SW_OUT
+Text HLabel 1000 950  0    50   Input ~ 0
+B
+Text HLabel 1000 800  0    50   Input ~ 0
+A
+Text Label 1700 1100 2    50   ~ 0
 ROT_ENC_SW
-Wire Wire Line
-	1800 2100 1300 2100
-Wire Wire Line
-	1800 2200 1300 2200
-Wire Wire Line
-	1800 2300 1300 2300
+Text Label 1700 950  2    50   ~ 0
+ROT_ENC_B
+Text Label 1700 800  2    50   ~ 0
+ROT_ENC_A
 $EndSCHEMATC

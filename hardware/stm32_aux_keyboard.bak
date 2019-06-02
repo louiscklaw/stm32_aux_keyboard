@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -39,7 +39,7 @@ F0 "keyboard_key" 50
 F1 "keyboard_key.sch" 50
 $EndSheet
 $Sheet
-S 1900 1650 950  600 
+S 700  2050 950  600 
 U 5CF34744
 F0 "rot_enc" 50
 F1 "rot_enc.sch" 50
@@ -73,5 +73,11 @@ S 1900 3350 950  600
 U 5D0AD7CC
 F0 "buzzer" 50
 F1 "buzzer.sch" 50
+$EndSheet
+$Sheet
+S 700  1200 950  600 
+U 5CFF7883
+F0 "rot_enc2" 50
+F1 "rot_enc2.sch" 50
 $EndSheet
 $EndSCHEMATC

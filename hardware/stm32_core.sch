@@ -217,8 +217,6 @@ Text Label 3500 1300 3    50   ~ 0
 VCC3V3
 Wire Wire Line
 	3500 1300 3500 1850
-Wire Wire Line
-	3300 5150 3300 5250
 $Comp
 L power:GND #PWR?
 U 1 1 5BCBCE91
@@ -232,8 +230,6 @@ F 3 "" H 3300 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 5450 3300 5550
-Wire Wire Line
-	3750 5150 3750 5250
 $Comp
 L power:GND #PWR?
 U 1 1 5BCBD867
@@ -260,8 +256,6 @@ F 3 "" H 4150 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 5450 4150 5550
-Wire Wire Line
-	4600 5150 4600 5250
 $Comp
 L power:GND #PWR?
 U 1 1 5BCBE30D
@@ -383,8 +377,6 @@ Wire Wire Line
 	7950 3850 7950 4000
 Wire Wire Line
 	7950 4350 7950 4500
-Wire Wire Line
-	7550 1200 7550 1500
 $Comp
 L taobao-r:R104 R?
 U 1 1 5BD01B7F
@@ -415,8 +407,6 @@ F 3 "" H 7550 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 2100 7550 1900
-Wire Wire Line
-	8400 1200 8400 1500
 $Comp
 L power:GND #PWR?
 U 1 1 5BD0D994
@@ -464,63 +454,6 @@ Wire Wire Line
 	3750 900  3900 900 
 Text Label 1200 2700 2    50   ~ 0
 VCC3V3
-Wire Wire Line
-	850  2500 850  2700
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCAD5BF
-P 850 2500
-F 0 "#PWR?" H 850 2350 50  0001 C CNN
-F 1 "+3V3" H 900 2700 50  0000 C CNN
-F 2 "" H 850 2500 50  0001 C CNN
-F 3 "" H 850 2500 50  0001 C CNN
-	1    850  2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCBE3DE
-P 3300 5150
-F 0 "#PWR?" H 3300 5000 50  0001 C CNN
-F 1 "+3V3" H 3350 5350 50  0000 C CNN
-F 2 "" H 3300 5150 50  0001 C CNN
-F 3 "" H 3300 5150 50  0001 C CNN
-	1    3300 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCE7C1D
-P 3750 5150
-F 0 "#PWR?" H 3750 5000 50  0001 C CNN
-F 1 "+3V3" H 3800 5350 50  0000 C CNN
-F 2 "" H 3750 5150 50  0001 C CNN
-F 3 "" H 3750 5150 50  0001 C CNN
-	1    3750 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCE7C66
-P 4150 5150
-F 0 "#PWR?" H 4150 5000 50  0001 C CNN
-F 1 "+3V3" H 4200 5350 50  0000 C CNN
-F 2 "" H 4150 5150 50  0001 C CNN
-F 3 "" H 4150 5150 50  0001 C CNN
-	1    4150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCE7CAF
-P 4600 5150
-F 0 "#PWR?" H 4600 5000 50  0001 C CNN
-F 1 "+3V3" H 4650 5350 50  0000 C CNN
-F 2 "" H 4600 5150 50  0001 C CNN
-F 3 "" H 4600 5150 50  0001 C CNN
-	1    4600 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5BCF284B
@@ -531,39 +464,6 @@ F 2 "" H 3750 900 50  0001 C CNN
 F 3 "" H 3750 900 50  0001 C CNN
 	1    3750 900 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCF3126
-P 7950 3350
-F 0 "#PWR?" H 7950 3200 50  0001 C CNN
-F 1 "+3V3" H 8000 3550 50  0000 C CNN
-F 2 "" H 7950 3350 50  0001 C CNN
-F 3 "" H 7950 3350 50  0001 C CNN
-	1    7950 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCF394E
-P 8400 1200
-F 0 "#PWR?" H 8400 1050 50  0001 C CNN
-F 1 "+3V3" H 8450 1400 50  0000 C CNN
-F 2 "" H 8400 1200 50  0001 C CNN
-F 3 "" H 8400 1200 50  0001 C CNN
-	1    8400 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BCF3997
-P 7550 1200
-F 0 "#PWR?" H 7550 1050 50  0001 C CNN
-F 1 "+3V3" H 7600 1400 50  0000 C CNN
-F 2 "" H 7550 1200 50  0001 C CNN
-F 3 "" H 7550 1200 50  0001 C CNN
-	1    7550 1200
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1200 2700 850  2700
@@ -826,8 +726,6 @@ F 3 "~" H 3750 5350 50  0001 C CNN
 	1    3750 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 5150 4150 5250
 $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5D02B301
@@ -1009,12 +907,143 @@ NoConn ~ 1900 7300
 $Comp
 L taobao-components:I2C_HEADER,2.54 J?
 U 1 1 5D064141
-P 7850 5600
-F 0 "J?" H 7822 5624 50  0000 R CNN
-F 1 "I2C_HEADER,2.54" H 7822 5533 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7850 5200 50  0001 C CNN
-F 3 "" H 7850 5550 50  0001 C CNN
-	1    7850 5600
+P 8700 5850
+F 0 "J?" H 8672 5874 50  0000 R CNN
+F 1 "I2C_HEADER,2.54" H 8672 5783 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8700 5450 50  0001 C CNN
+F 3 "" H 8700 5800 50  0001 C CNN
+	1    8700 5850
 	-1   0    0    -1  
 $EndComp
+$Comp
+L taobao-r:R472,0603 R?
+U 1 1 5D07DB4D
+P 7950 5600
+F 0 "R?" H 7891 5554 50  0000 R CNN
+F 1 "R472,0603" H 7891 5645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 5600 50  0001 C CNN
+F 3 "~" H 7950 5600 50  0001 C CNN
+	1    7950 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L taobao-r:R472,0603 R?
+U 1 1 5D07E05F
+P 7700 5550
+F 0 "R?" H 7641 5504 50  0000 R CNN
+F 1 "R472,0603" H 7641 5595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 5550 50  0001 C CNN
+F 3 "~" H 7700 5550 50  0001 C CNN
+	1    7700 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 5900 7700 5900
+Wire Wire Line
+	7700 5900 7700 5650
+Text Label 7100 5800 0    50   ~ 0
+PB7
+Text Label 7100 5900 0    50   ~ 0
+PB6
+Wire Wire Line
+	7700 5900 7100 5900
+Connection ~ 7700 5900
+Wire Wire Line
+	7100 5800 7950 5800
+Wire Wire Line
+	7950 5700 7950 5800
+Connection ~ 7950 5800
+Wire Wire Line
+	7950 5800 8500 5800
+Text Label 8200 5200 2    50   ~ 0
+VCC3V3
+Wire Wire Line
+	7700 5200 7700 5400
+Wire Wire Line
+	7700 5200 8200 5200
+Wire Wire Line
+	7700 5400 7950 5400
+Wire Wire Line
+	7950 5400 7950 5500
+Connection ~ 7700 5400
+Wire Wire Line
+	7700 5400 7700 5450
+$Comp
+L my_power:Vstm32 #PWR?
+U 1 1 5D0F9DAF
+P 850 2100
+F 0 "#PWR?" H 850 1950 50  0001 C CNN
+F 1 "Vstm32" H 855 2273 50  0000 C CNN
+F 2 "" H 850 2100 50  0001 C CNN
+F 3 "" H 850 2100 50  0001 C CNN
+	1    850  2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2100 850  2700
+$Comp
+L my_power:Vstm32 #PWR?
+U 1 1 5D11BE36
+P 3950 5050
+F 0 "#PWR?" H 3950 4900 50  0001 C CNN
+F 1 "Vstm32" H 3955 5223 50  0000 C CNN
+F 2 "" H 3950 5050 50  0001 C CNN
+F 3 "" H 3950 5050 50  0001 C CNN
+	1    3950 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5050 3950 5150
+Wire Wire Line
+	3950 5150 3750 5150
+Wire Wire Line
+	3300 5150 3300 5250
+Wire Wire Line
+	3750 5250 3750 5150
+Connection ~ 3750 5150
+Wire Wire Line
+	3750 5150 3300 5150
+Wire Wire Line
+	3950 5150 4150 5150
+Wire Wire Line
+	4600 5150 4600 5250
+Connection ~ 3950 5150
+Wire Wire Line
+	4150 5250 4150 5150
+Connection ~ 4150 5150
+Wire Wire Line
+	4150 5150 4600 5150
+$Comp
+L my_power:Vstm32 #PWR?
+U 1 1 5D134211
+P 7950 3350
+F 0 "#PWR?" H 7950 3200 50  0001 C CNN
+F 1 "Vstm32" H 7955 3523 50  0000 C CNN
+F 2 "" H 7950 3350 50  0001 C CNN
+F 3 "" H 7950 3350 50  0001 C CNN
+	1    7950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_power:Vstm32 #PWR?
+U 1 1 5D136523
+P 7950 1000
+F 0 "#PWR?" H 7950 850 50  0001 C CNN
+F 1 "Vstm32" H 7955 1173 50  0000 C CNN
+F 2 "" H 7950 1000 50  0001 C CNN
+F 3 "" H 7950 1000 50  0001 C CNN
+	1    7950 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1000 7950 1150
+Wire Wire Line
+	7950 1150 7550 1150
+Wire Wire Line
+	7550 1150 7550 1500
+Wire Wire Line
+	7950 1150 8400 1150
+Wire Wire Line
+	8400 1150 8400 1500
+Connection ~ 7950 1150
 $EndSCHEMATC

@@ -145,6 +145,48 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# my_power_Vbuzzer
+#
+DEF my_power_Vbuzzer #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "my_power_Vbuzzer" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X Vbuzzer 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# my_power_Voled
+#
+DEF my_power_Voled #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "my_power_Voled" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X Voled 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# my_power_Vstm32
+#
+DEF my_power_Vstm32 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "my_power_Vstm32" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X Vstm32 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # my_power_Vusb
 #
 DEF my_power_Vusb #PWR 0 0 Y Y 1 F P
@@ -157,6 +199,20 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X Vusb 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# my_power_Vws2812
+#
+DEF my_power_Vws2812 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "my_power_Vws2812" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X Vws2812 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

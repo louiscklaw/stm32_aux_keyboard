@@ -37,17 +37,6 @@ F 3 "~" H 2650 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5CF66BC4
-P 2350 1350
-F 0 "#PWR?" H 2350 1200 50  0001 C CNN
-F 1 "+5V" H 2400 1550 50  0000 C CNN
-F 2 "" H 2350 1350 50  0001 C CNN
-F 3 "" H 2350 1350 50  0001 C CNN
-	1    2350 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5CF671F3
 P 2800 1350
@@ -306,17 +295,6 @@ $EndComp
 Wire Wire Line
 	6500 2250 6500 2400
 $Comp
-L power:+5V #PWR?
-U 1 1 5CEC2C6D
-P 1600 1650
-F 0 "#PWR?" H 1600 1500 50  0001 C CNN
-F 1 "+5V" H 1650 1850 50  0000 C CNN
-F 2 "" H 1600 1650 50  0001 C CNN
-F 3 "" H 1600 1650 50  0001 C CNN
-	1    1600 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5CEC323C
 P 1600 2250
@@ -329,8 +307,6 @@ F 3 "" H 1600 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 2000 1600 2250
-Wire Wire Line
-	1600 1650 1600 1900
 $Comp
 L power:GND #PWR?
 U 1 1 5CEC5733
@@ -4130,4 +4106,17 @@ Wire Wire Line
 Wire Wire Line
 	1800 4500 1800 5450
 NoConn ~ 3800 5450
+Wire Wire Line
+	1600 1550 1600 1900
+$Comp
+L my_power:Vws2812 #PWR?
+U 1 1 5D107D8D
+P 1600 1550
+F 0 "#PWR?" H 1600 1400 50  0001 C CNN
+F 1 "Vws2812" H 1605 1723 50  0000 C CNN
+F 2 "" H 1600 1550 50  0001 C CNN
+F 3 "" H 1600 1550 50  0001 C CNN
+	1    1600 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

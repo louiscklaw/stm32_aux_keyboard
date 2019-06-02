@@ -1,0 +1,148 @@
+
+(session oled.ses
+  (base_design oled.dsn)
+  (placement
+    (resolution um 10)
+    (component "footprint-lib:SSD1306_OLED-0.91-128x32_4pin"
+      (place U1 269155 -603855 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R2 327500 -607500 front 90)
+      (place R1 307500 -607500 front 90)
+    )
+    (component "footprint-lib:I2C_DEBUG,2.54"
+      (place J1 337500 -565000 front 270)
+    )
+    (component Capacitor_SMD:CP_Elec_4x5.3
+      (place C1 400000 -622500 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.1.2-f72e74a~84~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path F.Cu 2500
+            269155 -640055
+            280908 -640055
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            400000 -640500
+            281353 -640500
+            280908 -640055
+          )
+        )
+      )
+      (net Voled
+        (wire
+          (path F.Cu 2500
+            327500 -616250
+            307500 -616250
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            400000 -604500
+            388250 -616250
+            327500 -616250
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            269155 -614655
+            280908 -614655
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            307500 -616250
+            282503 -616250
+            280908 -614655
+          )
+        )
+      )
+      (net /SCL
+        (wire
+          (path F.Cu 2500
+            307500 -589255
+            307500 -598750
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            312100 -576753
+            307500 -581353
+            307500 -589255
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            307500 -589255
+            280908 -589255
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            269155 -589255
+            280908 -589255
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            312100 -565000
+            312100 -576753
+          )
+        )
+      )
+      (net /SDA
+        (wire
+          (path F.Cu 2500
+            329884 -566066
+            316975 -553157
+            279853 -553157
+            269155 -563855
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            327500 -598750
+            327500 -568450
+            329884 -566066
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            332268 -565000
+            331202 -566066
+            329884 -566066
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            337500 -565000
+            332268 -565000
+          )
+        )
+      )
+    )
+  )
+)

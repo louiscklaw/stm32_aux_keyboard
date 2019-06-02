@@ -204,4 +204,70 @@ NoConn ~ 7800 5050
 NoConn ~ 7800 5150
 Text Notes 7150 6750 0    100  ~ 0
 DRC ok, 8 error accepted
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H1
+U 1 1 5CF47DFC
+P 5900 6600
+F 0 "H1" H 6000 6650 50  0000 L CNN
+F 1 "MOUNT_M2" H 6000 6600 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 6600 50  0001 C CNN
+F 3 "~" H 5900 6600 50  0001 C CNN
+	1    5900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H2
+U 1 1 5CF481A7
+P 5900 6800
+F 0 "H2" H 6000 6850 50  0000 L CNN
+F 1 "MOUNT_M2" H 6000 6800 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 6800 50  0001 C CNN
+F 3 "~" H 5900 6800 50  0001 C CNN
+	1    5900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H3
+U 1 1 5CF484A8
+P 5900 7000
+F 0 "H3" H 6000 7050 50  0000 L CNN
+F 1 "MOUNT_M2" H 6000 7000 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 7000 50  0001 C CNN
+F 3 "~" H 5900 7000 50  0001 C CNN
+	1    5900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H4
+U 1 1 5CF484B2
+P 5900 7200
+F 0 "H4" H 6000 7250 50  0000 L CNN
+F 1 "MOUNT_M2" H 6000 7200 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 7200 50  0001 C CNN
+F 3 "~" H 5900 7200 50  0001 C CNN
+	1    5900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H5
+U 1 1 5CF532EE
+P 5900 7400
+F 0 "H5" H 6000 7450 50  0000 L CNN
+F 1 "MOUNT_M2" H 6000 7400 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 7400 50  0001 C CNN
+F 3 "~" H 5900 7400 50  0001 C CNN
+	1    5900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H6
+U 1 1 5CF532F8
+P 5900 7600
+F 0 "H6" H 6000 7650 50  0000 L CNN
+F 1 "MOUNT_M2" H 6000 7600 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 7600 50  0001 C CNN
+F 3 "~" H 5900 7600 50  0001 C CNN
+	1    5900 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

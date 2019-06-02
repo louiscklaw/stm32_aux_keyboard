@@ -14,62 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L taobao-components:USB_Micro U5
-U 1 1 5D0A4A6D
-P 1300 1700
-F 0 "U5" H 1300 2165 50  0000 C CNN
-F 1 "USB_Micro" H 1300 2074 50  0000 C CNN
-F 2 "footprint-lib:USB_Micro-B_Molex-105017-0001" H 1300 1200 50  0001 C CNN
-F 3 "" H 1300 1200 50  0001 C CNN
-	1    1300 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5D0A4EF1
-P 700 2200
-F 0 "#PWR0116" H 700 1950 50  0001 C CNN
-F 1 "GND" H 705 2027 50  0000 C CNN
-F 2 "" H 700 2200 50  0001 C CNN
-F 3 "" H 700 2200 50  0001 C CNN
-	1    700  2200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1500 700  1500
-Wire Wire Line
-	700  1500 700  1600
-Wire Wire Line
-	900  1600 700  1600
-Connection ~ 700  1600
-Wire Wire Line
-	700  1600 700  1800
-Wire Wire Line
-	900  1800 700  1800
-Connection ~ 700  1800
-Wire Wire Line
-	700  1800 700  1900
-Wire Wire Line
-	900  1900 700  1900
-Connection ~ 700  1900
-Wire Wire Line
-	700  1900 700  2200
-$Comp
-L power:GND #PWR0117
-U 1 1 5D0A5204
-P 1800 2200
-F 0 "#PWR0117" H 1800 1950 50  0001 C CNN
-F 1 "GND" H 1805 2027 50  0000 C CNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "" H 1800 2200 50  0001 C CNN
-	1    1800 2200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 2200 1800 1900
-Wire Wire Line
-	1800 1900 1700 1900
 Text HLabel 1400 750  0    50   Input ~ 0
 USB_P
 Text HLabel 1400 850  0    50   Input ~ 0
@@ -82,21 +26,6 @@ Wire Wire Line
 	1400 750  1750 750 
 Wire Wire Line
 	1400 850  1750 850 
-Wire Wire Line
-	1700 1500 1800 1500
-Wire Wire Line
-	1800 1500 1800 1150
-$Comp
-L my_power:Vusb #PWR0115
-U 1 1 5D0A9977
-P 1800 1150
-F 0 "#PWR0115" H 1800 1000 50  0001 C CNN
-F 1 "Vusb" H 1815 1323 50  0000 C CNN
-F 2 "" H 1800 1150 50  0001 C CNN
-F 3 "" H 1800 1150 50  0001 C CNN
-	1    1800 1150
-	-1   0    0    -1  
-$EndComp
 $Bitmap
 Pos -850 1900
 Scale 1.000000
@@ -5982,66 +5911,9 @@ AE 42 60 82
 EndData
 $EndBitmap
 Wire Wire Line
-	1700 1600 2050 1600
+	2300 1900 2350 1900
 Wire Wire Line
-	1700 1700 2150 1700
-$Comp
-L taobao-components:USBLC6-2SC6_SOT23-6 U6
-U 1 1 5D3156EE
-P 2800 1900
-F 0 "U6" H 2800 2265 50  0000 C CNN
-F 1 "USBLC6-2SC6_SOT23-6" H 2800 2174 50  0000 C CNN
-F 2 "footprints-lib:USBLC6-2" H 2800 1400 50  0001 C CNN
-F 3 "" H 2800 1850 50  0001 C CNN
-	1    2800 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 2000 2050 2000
-Wire Wire Line
-	2050 2000 2050 1600
-Wire Wire Line
-	2350 1800 2150 1800
-Wire Wire Line
-	2150 1800 2150 1700
-Wire Wire Line
-	1800 1500 3350 1500
-Wire Wire Line
-	3350 1500 3350 1900
-Wire Wire Line
-	3350 1900 3250 1900
-Connection ~ 1800 1500
-$Comp
-L taobao-rpack:RN_220,0603 RN1
-U 1 1 5D31870E
-P 3800 2400
-F 0 "RN1" V 3383 2400 50  0000 C CNN
-F 1 "RN_220,0603" V 3474 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4075 2400 50  0001 C CNN
-F 3 "~" H 3800 2400 50  0001 C CNN
-	1    3800 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3250 1800 3450 1800
-Wire Wire Line
-	3450 1800 3450 2200
-Text Label 4450 2300 2    50   ~ 0
-USB_P
-Text Label 4450 2200 2    50   ~ 0
-USB_N
-Wire Wire Line
-	4000 2200 4450 2200
-Wire Wire Line
-	4000 2300 4450 2300
-Wire Wire Line
-	3450 2200 3600 2200
-Wire Wire Line
-	3250 2000 3350 2000
-Wire Wire Line
-	3350 2000 3350 2300
-Wire Wire Line
-	3350 2300 3600 2300
+	2300 2300 2300 1900
 $Comp
 L power:GND #PWR0118
 U 1 1 5D3240FA
@@ -6054,7 +5926,135 @@ F 3 "" H 2300 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 2300 2300 1900
+	3350 2300 3600 2300
 Wire Wire Line
-	2300 1900 2350 1900
+	3350 2000 3350 2300
+Wire Wire Line
+	3250 2000 3350 2000
+Wire Wire Line
+	3450 2200 3600 2200
+Wire Wire Line
+	4000 2300 4450 2300
+Wire Wire Line
+	4000 2200 4450 2200
+Text Label 4450 2200 2    50   ~ 0
+USB_N
+Text Label 4450 2300 2    50   ~ 0
+USB_P
+Wire Wire Line
+	3450 1800 3450 2200
+Wire Wire Line
+	3250 1800 3450 1800
+$Comp
+L taobao-rpack:RN_220,0603 RN1
+U 1 1 5D31870E
+P 3800 2400
+F 0 "RN1" V 3383 2400 50  0000 C CNN
+F 1 "RN_220,0603" V 3474 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4075 2400 50  0001 C CNN
+F 3 "~" H 3800 2400 50  0001 C CNN
+	1    3800 2400
+	0    1    1    0   
+$EndComp
+Connection ~ 1800 1500
+Wire Wire Line
+	3350 1900 3250 1900
+Wire Wire Line
+	3350 1500 3350 1900
+Wire Wire Line
+	1800 1500 3350 1500
+Wire Wire Line
+	2150 1800 2150 1700
+Wire Wire Line
+	2350 1800 2150 1800
+Wire Wire Line
+	2050 2000 2050 1600
+Wire Wire Line
+	2350 2000 2050 2000
+$Comp
+L taobao-components:USBLC6-2SC6_SOT23-6 U6
+U 1 1 5D3156EE
+P 2800 1900
+F 0 "U6" H 2800 2265 50  0000 C CNN
+F 1 "USBLC6-2SC6_SOT23-6" H 2800 2174 50  0000 C CNN
+F 2 "footprints-lib:USBLC6-2" H 2800 1400 50  0001 C CNN
+F 3 "" H 2800 1850 50  0001 C CNN
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1700 2150 1700
+Wire Wire Line
+	1700 1600 2050 1600
+$Comp
+L my_power:Vusb #PWR0115
+U 1 1 5D0A9977
+P 1800 1150
+F 0 "#PWR0115" H 1800 1000 50  0001 C CNN
+F 1 "Vusb" H 1815 1323 50  0000 C CNN
+F 2 "" H 1800 1150 50  0001 C CNN
+F 3 "" H 1800 1150 50  0001 C CNN
+	1    1800 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1500 1800 1150
+Wire Wire Line
+	1700 1500 1800 1500
+Wire Wire Line
+	1800 1900 1700 1900
+Wire Wire Line
+	1800 2200 1800 1900
+$Comp
+L power:GND #PWR0117
+U 1 1 5D0A5204
+P 1800 2200
+F 0 "#PWR0117" H 1800 1950 50  0001 C CNN
+F 1 "GND" H 1805 2027 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1900 700  2200
+Connection ~ 700  1900
+Wire Wire Line
+	900  1900 700  1900
+Wire Wire Line
+	700  1800 700  1900
+Connection ~ 700  1800
+Wire Wire Line
+	900  1800 700  1800
+Wire Wire Line
+	700  1600 700  1800
+Connection ~ 700  1600
+Wire Wire Line
+	900  1600 700  1600
+Wire Wire Line
+	700  1500 700  1600
+Wire Wire Line
+	900  1500 700  1500
+$Comp
+L power:GND #PWR0116
+U 1 1 5D0A4EF1
+P 700 2200
+F 0 "#PWR0116" H 700 1950 50  0001 C CNN
+F 1 "GND" H 705 2027 50  0000 C CNN
+F 2 "" H 700 2200 50  0001 C CNN
+F 3 "" H 700 2200 50  0001 C CNN
+	1    700  2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L taobao-components:USB_Micro U5
+U 1 1 5D0A4A6D
+P 1300 1700
+F 0 "U5" H 1300 2165 50  0000 C CNN
+F 1 "USB_Micro" H 1300 2074 50  0000 C CNN
+F 2 "footprint-lib:USB_Micro-B_Molex-105017-0001" H 1300 1200 50  0001 C CNN
+F 3 "" H 1300 1200 50  0001 C CNN
+	1    1300 1700
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

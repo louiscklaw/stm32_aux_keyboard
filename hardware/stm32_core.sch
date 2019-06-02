@@ -34,19 +34,19 @@ PC13
 Wire Wire Line
 	2400 2500 2950 2500
 Text Label 2400 2600 0    50   ~ 0
-PC14
+OSC32K_P
 Wire Wire Line
 	2400 2600 2950 2600
 Text Label 2400 2700 0    50   ~ 0
-PC15
+OSC32K_N
 Wire Wire Line
 	2400 2700 2950 2700
 Text Label 2400 2800 0    50   ~ 0
-OSCIN
+OSC_P
 Wire Wire Line
 	2400 2800 2950 2800
 Text Label 2400 2900 0    50   ~ 0
-OSCOUT
+OSC_N
 Wire Wire Line
 	2400 2900 2950 2900
 Text Label 2400 3000 0    50   ~ 0
@@ -54,11 +54,11 @@ RESET
 Wire Wire Line
 	2400 3000 2950 3000
 Text Label 2400 3100 0    50   ~ 0
-GND
+VSSA
 Wire Wire Line
 	2400 3100 2950 3100
 Text Label 2400 3200 0    50   ~ 0
-VCC3V3
+VDDA
 Wire Wire Line
 	2400 3200 2950 3200
 Text Label 2400 3300 0    50   ~ 0
@@ -210,65 +210,13 @@ PB9
 Wire Wire Line
 	3700 1300 3700 1850
 Text Label 3600 1300 3    50   ~ 0
-GND
+VSS_3
 Wire Wire Line
 	3600 1300 3600 1850
 Text Label 3500 1300 3    50   ~ 0
-VCC3V3
+VDD_3
 Wire Wire Line
 	3500 1300 3500 1850
-$Comp
-L power:GND #PWR011
-U 1 1 5BCBCE91
-P 3300 5550
-F 0 "#PWR011" H 3300 5300 50  0001 C CNN
-F 1 "GND" H 3305 5377 50  0000 C CNN
-F 2 "" H 3300 5550 50  0001 C CNN
-F 3 "" H 3300 5550 50  0001 C CNN
-	1    3300 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 5450 3300 5550
-$Comp
-L power:GND #PWR012
-U 1 1 5BCBD867
-P 3750 5550
-F 0 "#PWR012" H 3750 5300 50  0001 C CNN
-F 1 "GND" H 3755 5377 50  0000 C CNN
-F 2 "" H 3750 5550 50  0001 C CNN
-F 3 "" H 3750 5550 50  0001 C CNN
-	1    3750 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 5450 3750 5550
-$Comp
-L power:GND #PWR013
-U 1 1 5BCBE2F9
-P 4150 5550
-F 0 "#PWR013" H 4150 5300 50  0001 C CNN
-F 1 "GND" H 4155 5377 50  0000 C CNN
-F 2 "" H 4150 5550 50  0001 C CNN
-F 3 "" H 4150 5550 50  0001 C CNN
-	1    4150 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 5450 4150 5550
-$Comp
-L power:GND #PWR014
-U 1 1 5BCBE30D
-P 4600 5550
-F 0 "#PWR014" H 4600 5300 50  0001 C CNN
-F 1 "GND" H 4605 5377 50  0000 C CNN
-F 2 "" H 4600 5550 50  0001 C CNN
-F 3 "" H 4600 5550 50  0001 C CNN
-	1    4600 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 5450 4600 5550
 $Comp
 L taobao-c:C20pf C15
 U 1 1 5BCC6BCE
@@ -330,12 +278,12 @@ Wire Wire Line
 Wire Wire Line
 	7400 6050 7400 5950
 Text Label 7400 5200 3    50   ~ 0
-OSCIN
+OSC_N
 Wire Wire Line
 	7100 5200 7100 5650
 Connection ~ 7100 5650
 Text Label 7100 5200 3    50   ~ 0
-OSCOUT
+OSC_P
 Wire Wire Line
 	7400 5200 7400 5650
 Connection ~ 7400 5650
@@ -452,8 +400,8 @@ Wire Wire Line
 	4100 900  4250 900 
 Wire Wire Line
 	3750 900  3900 900 
-Text Label 7550 1750 2    50   ~ 0
-VCC3V3
+Text Label 1600 6450 2    50   ~ 0
+VDDA
 $Comp
 L power:+3V3 #PWR01
 U 1 1 5BCF284B
@@ -466,52 +414,42 @@ F 3 "" H 3750 900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 1750 7200 1750
-Connection ~ 7200 1750
-Text Label 7550 1850 2    50   ~ 0
-VBAT
-Text Label 7550 1950 2    50   ~ 0
-VDD_2
-Text Label 7550 2050 2    50   ~ 0
+	1600 6450 1250 6450
+Text Label 1600 6550 2    50   ~ 0
 VDD_1
+Text Label 1600 6650 2    50   ~ 0
+VDD_2
 Wire Wire Line
-	7550 2050 7200 2050
+	1600 6650 1250 6650
 Wire Wire Line
-	7200 1750 7200 1850
+	1600 6550 1250 6550
+Connection ~ 1250 6550
 Wire Wire Line
-	7550 1950 7200 1950
-Connection ~ 7200 1950
-Wire Wire Line
-	7200 1950 7200 2050
-Wire Wire Line
-	7550 1850 7200 1850
-Connection ~ 7200 1850
-Wire Wire Line
-	7200 1850 7200 1950
+	1250 6550 1250 6650
 $Comp
 L power:GND #PWR08
 U 1 1 5BDA790B
-P 7200 2550
-F 0 "#PWR08" H 7200 2300 50  0001 C CNN
-F 1 "GND" H 7250 2350 50  0000 C CNN
-F 2 "" H 7200 2550 50  0001 C CNN
-F 3 "" H 7200 2550 50  0001 C CNN
-	1    7200 2550
+P 1250 7400
+F 0 "#PWR08" H 1250 7150 50  0001 C CNN
+F 1 "GND" H 1300 7200 50  0000 C CNN
+F 2 "" H 1250 7400 50  0001 C CNN
+F 3 "" H 1250 7400 50  0001 C CNN
+	1    1250 7400
 	1    0    0    -1  
 $EndComp
-Text Label 7550 2350 2    50   ~ 0
+Text Label 1600 7200 2    50   ~ 0
 VSS_2
-Text Label 7550 2450 2    50   ~ 0
+Text Label 1600 7300 2    50   ~ 0
 VSS_1
 Wire Wire Line
-	7550 2450 7200 2450
+	1600 7300 1250 7300
 Wire Wire Line
-	7200 2450 7200 2550
+	1250 7300 1250 7400
 Wire Wire Line
-	7550 2350 7200 2350
+	1600 7200 1250 7200
 Wire Wire Line
-	7200 2350 7200 2450
-Connection ~ 7200 2450
+	1250 7200 1250 7300
+Connection ~ 1250 7300
 $Comp
 L taobao-components:LED_GREEN D1
 U 1 1 5BDD943F
@@ -538,10 +476,8 @@ Wire Wire Line
 	8050 4050 8050 4150
 Wire Wire Line
 	8050 4350 8050 4450
-Text Label 8050 3600 3    50   ~ 0
+Text Label 7700 3650 0    50   ~ 0
 PC13
-Wire Wire Line
-	8050 3600 8050 3850
 $Comp
 L taobao-c:C104,0603 C1
 U 1 1 5CF509E8
@@ -632,46 +568,46 @@ Wire Wire Line
 $Comp
 L taobao-c:C104,0603 C3
 U 1 1 5D02AA49
-P 3300 5350
-F 0 "C3" H 3392 5396 50  0000 L CNN
-F 1 "C104,0603" H 3392 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 5350 50  0001 C CNN
-F 3 "~" H 3300 5350 50  0001 C CNN
-	1    3300 5350
-	1    0    0    -1  
+P 3950 6300
+F 0 "C3" V 4179 6300 50  0000 C CNN
+F 1 "C104,0603" V 4088 6300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 6300 50  0001 C CNN
+F 3 "~" H 3950 6300 50  0001 C CNN
+	1    3950 6300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L taobao-c:C104,0603 C4
 U 1 1 5D02AD39
-P 3750 5350
-F 0 "C4" H 3842 5396 50  0000 L CNN
-F 1 "C104,0603" H 3842 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 5350 50  0001 C CNN
-F 3 "~" H 3750 5350 50  0001 C CNN
-	1    3750 5350
-	1    0    0    -1  
+P 3950 5850
+F 0 "C4" V 4179 5850 50  0000 C CNN
+F 1 "C104,0603" V 4088 5850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 5850 50  0001 C CNN
+F 3 "~" H 3950 5850 50  0001 C CNN
+	1    3950 5850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L taobao-c:C104,0603 C5
 U 1 1 5D02B301
-P 4150 5350
-F 0 "C5" H 4242 5396 50  0000 L CNN
-F 1 "C104,0603" H 4242 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 5350 50  0001 C CNN
-F 3 "~" H 4150 5350 50  0001 C CNN
-	1    4150 5350
-	1    0    0    -1  
+P 3950 5450
+F 0 "C5" V 4179 5450 50  0000 C CNN
+F 1 "C104,0603" V 4088 5450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 5450 50  0001 C CNN
+F 3 "~" H 3950 5450 50  0001 C CNN
+	1    3950 5450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L taobao-c:C104,0603 C6
 U 1 1 5D02B4E1
-P 4600 5350
-F 0 "C6" H 4692 5396 50  0000 L CNN
-F 1 "C104,0603" H 4692 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 5350 50  0001 C CNN
-F 3 "~" H 4600 5350 50  0001 C CNN
-	1    4600 5350
-	1    0    0    -1  
+P 3950 5000
+F 0 "C6" V 4179 5000 50  0000 C CNN
+F 1 "C104,0603" V 4088 5000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 5000 50  0001 C CNN
+F 3 "~" H 3950 5000 50  0001 C CNN
+	1    3950 5000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L taobao-c:C104,0603 C7
@@ -892,48 +828,16 @@ Wire Wire Line
 $Comp
 L my_power:Vstm32 #PWR04
 U 1 1 5D0F9DAF
-P 7200 1150
-F 0 "#PWR04" H 7200 1000 50  0001 C CNN
-F 1 "Vstm32" H 7205 1323 50  0000 C CNN
-F 2 "" H 7200 1150 50  0001 C CNN
-F 3 "" H 7200 1150 50  0001 C CNN
-	1    7200 1150
+P 1250 5750
+F 0 "#PWR04" H 1250 5600 50  0001 C CNN
+F 1 "Vstm32" H 1255 5923 50  0000 C CNN
+F 2 "" H 1250 5750 50  0001 C CNN
+F 3 "" H 1250 5750 50  0001 C CNN
+	1    1250 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 1150 7200 1750
-$Comp
-L my_power:Vstm32 #PWR010
-U 1 1 5D11BE36
-P 3950 5050
-F 0 "#PWR010" H 3950 4900 50  0001 C CNN
-F 1 "Vstm32" H 3955 5223 50  0000 C CNN
-F 2 "" H 3950 5050 50  0001 C CNN
-F 3 "" H 3950 5050 50  0001 C CNN
-	1    3950 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 5050 3950 5150
-Wire Wire Line
-	3950 5150 3750 5150
-Wire Wire Line
-	3300 5150 3300 5250
-Wire Wire Line
-	3750 5250 3750 5150
-Connection ~ 3750 5150
-Wire Wire Line
-	3750 5150 3300 5150
-Wire Wire Line
-	3950 5150 4150 5150
-Wire Wire Line
-	4600 5150 4600 5250
-Connection ~ 3950 5150
-Wire Wire Line
-	4150 5250 4150 5150
-Connection ~ 4150 5150
-Wire Wire Line
-	4150 5150 4600 5150
+	1250 5750 1250 6250
 $Comp
 L my_power:Vstm32 #PWR07
 U 1 1 5D134211
@@ -1224,13 +1128,80 @@ Wire Wire Line
 Wire Wire Line
 	8250 6050 8250 5950
 Text Label 8250 5200 3    50   ~ 0
-PC14
+OSC32K_N
 Connection ~ 7850 5650
 Wire Wire Line
 	7850 5200 7850 5650
 Text Label 7850 5200 3    50   ~ 0
-PC15
+OSC32K_P
 Connection ~ 8250 5650
 Wire Wire Line
 	8250 5200 8250 5650
+Text Label 3600 5850 0    50   ~ 0
+VDD_1
+Text Label 3600 5450 0    50   ~ 0
+VDD_2
+Text Label 3600 5000 0    50   ~ 0
+VDD_3
+Text Label 1600 6750 2    50   ~ 0
+VDD_3
+Wire Wire Line
+	1600 6750 1250 6750
+Wire Wire Line
+	1250 6750 1250 6650
+Connection ~ 1250 6650
+Wire Wire Line
+	3600 5850 3850 5850
+Wire Wire Line
+	3600 5450 3850 5450
+Wire Wire Line
+	3600 5000 3850 5000
+Text Label 3600 6300 0    50   ~ 0
+VDDA
+Wire Wire Line
+	3600 6300 3850 6300
+Text Label 1600 6250 2    50   ~ 0
+VBAT
+Wire Wire Line
+	1600 6250 1250 6250
+Connection ~ 1250 6250
+Connection ~ 1250 6450
+Wire Wire Line
+	1250 6450 1250 6550
+Wire Wire Line
+	1250 6250 1250 6450
+Text Label 1600 7000 2    50   ~ 0
+VSSA
+Text Label 1600 7100 2    50   ~ 0
+VSS_3
+Wire Wire Line
+	1600 7100 1250 7100
+Wire Wire Line
+	1600 7000 1250 7000
+Wire Wire Line
+	1250 7000 1250 7100
+Connection ~ 1250 7200
+Connection ~ 1250 7100
+Wire Wire Line
+	1250 7100 1250 7200
+Text Label 4350 6300 2    50   ~ 0
+VSSA
+Wire Wire Line
+	4050 6300 4350 6300
+Text Label 4350 5850 2    50   ~ 0
+VSS_1
+Text Label 4350 5450 2    50   ~ 0
+VSS_2
+Text Label 4350 5000 2    50   ~ 0
+VSS_3
+Wire Wire Line
+	4050 5850 4350 5850
+Wire Wire Line
+	4050 5450 4350 5450
+Wire Wire Line
+	4050 5000 4350 5000
+Wire Wire Line
+	8050 3650 8050 3850
+Wire Wire Line
+	7700 3650 8050 3650
 $EndSCHEMATC

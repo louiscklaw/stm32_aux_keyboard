@@ -697,7 +697,7 @@
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical (layer F.Cu) (tedit 59FED6E3) (tstamp 5CF6367B)
-    (at 186.8 115.61)
+    (at 99.57 109.62 180)
     (descr "Through hole straight pin header, 1x02, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x02 1.27mm single row")
     (path /5CF35582/5CF256DE)
@@ -727,9 +727,9 @@
     (fp_line (start 1.05 1.905) (end -1.05 1.905) (layer F.Fab) (width 0.1))
     (fp_line (start 1.05 -0.635) (end 1.05 1.905) (layer F.Fab) (width 0.1))
     (fp_line (start -0.525 -0.635) (end 1.05 -0.635) (layer F.Fab) (width 0.1))
-    (pad 2 thru_hole oval (at 0 1.27) (size 1 1) (drill 0.65) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 1.27 180) (size 1 1) (drill 0.65) (layers *.Cu *.Mask)
       (net 97 /WS2812/WS2812_IN))
-    (pad 1 thru_hole rect (at 0 0) (size 1 1) (drill 0.65) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 1) (drill 0.65) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x02_P1.27mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -739,7 +739,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF63335)
-    (at 93.82 99.64)
+    (at 93.01 109.41)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D174976)
@@ -784,7 +784,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF6331E)
-    (at 93.82 108.3)
+    (at 93.12 102.41)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D17493D)
@@ -1376,7 +1376,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5CF62CD1)
-    (at 93.82 99.64 90)
+    (at 93.01 109.41 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CF35582/5D174952)
@@ -1412,7 +1412,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5CF62CC0)
-    (at 93.82 108.3 90)
+    (at 93.12 102.41 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CF35582/5D174919)

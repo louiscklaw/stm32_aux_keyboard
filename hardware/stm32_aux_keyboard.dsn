@@ -51,6 +51,27 @@
     )
   )
   (placement
+    (component "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like"
+      (place H8 47500 -52500 front 0 (PN MOUNT_M2))
+      (place H7 67500 -72500 front 0 (PN MOUNT_M2))
+      (place H6 25000 -67500 front 0 (PN MOUNT_M2))
+      (place H5 110000 -67500 front 0 (PN MOUNT_M2))
+      (place H4 110000 -25000 front 0 (PN MOUNT_M2))
+      (place H3 25000 -25000 front 0 (PN MOUNT_M2))
+      (place H2 25000 -110000 front 0 (PN MOUNT_M2))
+      (place H1 110000 -110000 front 0 (PN MOUNT_M2))
+    )
+    (component "footprint-lib:cherry_mx_without_led_100H"
+      (place SW14 77500 -82500 front 180 (PN KEY33))
+      (place SW13 57500 -82500 front 180 (PN KEY32))
+      (place SW12 37500 -82500 front 180 (PN KEY31))
+      (place SW11 77500 -63000 front 180 (PN KEY23))
+      (place SW10 57500 -63000 front 180 (PN KEY22))
+      (place SW9 37500 -63000 front 180 (PN KEY21))
+      (place SW8 77500 -43500 front 180 (PN KEY13))
+      (place SW7 57500 -43500 front 180 (PN KEY12))
+      (place SW6 37500 -43500 front 180 (PN KEY11))
+    )
     (component "footprint-lib:USBLC6-2SC6_SOT23-6"
       (place U9 74910 -25990 back 180 (PN "USBLC6-2SC6_SOT23-6"))
       (place U5 85500 -25660 back 180 (PN "USBLC6-2SC6_SOT23-6"))
@@ -276,17 +297,6 @@
     (component "footprint-lib:MLT-8530"
       (place BZ1 81500 -107000 front 90 (PN "BUZZER,MLT-8530"))
     )
-    (component "footprint-lib:cherry_mx_without_led_100H"
-      (place SW14 77500 -82500 front 180 (PN KEY33))
-      (place SW13 57500 -82500 front 180 (PN KEY32))
-      (place SW12 37500 -82500 front 180 (PN KEY31))
-      (place SW11 77500 -63000 front 180 (PN KEY23))
-      (place SW10 57500 -63000 front 180 (PN KEY22))
-      (place SW9 37500 -63000 front 180 (PN KEY21))
-      (place SW8 77500 -43500 front 180 (PN KEY13))
-      (place SW7 57500 -43500 front 180 (PN KEY12))
-      (place SW6 37500 -43500 front 180 (PN KEY11))
-    )
     (component "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
       (place SW18 62700 -107280 front 180 (PN ROT1))
       (place SW5 44700 -107280 front 180 (PN ROT2))
@@ -295,16 +305,68 @@
       (place J7 61500 -96500 back 270 (PN ROT_ENC_HEADER))
       (place J4 33000 -97000 front 270 (PN ROT_ENC_HEADER))
     )
-    (component "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like"
-      (place H6 25000 -67500 front 0 (PN MOUNT_M2))
-      (place H5 110000 -67500 front 0 (PN MOUNT_M2))
-      (place H4 110000 -25000 front 0 (PN MOUNT_M2))
-      (place H3 25000 -25000 front 0 (PN MOUNT_M2))
-      (place H2 25000 -110000 front 0 (PN MOUNT_M2))
-      (place H1 110000 -110000 front 0 (PN MOUNT_M2))
-    )
   )
   (library
+    (image "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like"
+      (outline (path signal 1200  1905 0  1827.83 -536.701  1602.59 -1029.92  1247.51 -1439.7
+            791.366 -1732.85  271.11 -1885.61  -271.11 -1885.61  -791.366 -1732.85
+            -1247.51 -1439.7  -1602.59 -1029.92  -1827.83 -536.701  -1905 0
+            -1827.83 536.701  -1602.59 1029.92  -1247.51 1439.7  -791.366 1732.85
+            -271.11 1885.61  271.11 1885.61  791.366 1732.85  1247.51 1439.7
+            1602.59 1029.92  1827.83 536.701  1905 0))
+      (outline (path signal 1200  1905 0  1827.83 -536.701  1602.59 -1029.92  1247.51 -1439.7
+            791.366 -1732.85  271.11 -1885.61  -271.11 -1885.61  -791.366 -1732.85
+            -1247.51 -1439.7  -1602.59 -1029.92  -1827.83 -536.701  -1905 0
+            -1827.83 536.701  -1602.59 1029.92  -1247.51 1439.7  -791.366 1732.85
+            -271.11 1885.61  271.11 1885.61  791.366 1732.85  1247.51 1439.7
+            1602.59 1029.92  1827.83 536.701  1905 0))
+      (outline (path signal 50  2950 0  2870.48 -680.317  2636.22 -1323.96  2259.83 -1896.22
+            1761.62 -2366.26  1168.43 -2708.74  512.262 -2905.18  -171.527 -2945.01
+            -846.07 -2826.07  -1475 -2554.78  -2024.41 -2145.75  -2464.69 -1621.05
+            -2772.09 -1008.96  -2930.05 -342.474  -2930.05 342.474  -2772.09 1008.96
+            -2464.69 1621.05  -2024.41 2145.75  -1475 2554.78  -846.07 2826.07
+            -171.527 2945.01  512.262 2905.18  1168.43 2708.74  1761.62 2366.26
+            2259.83 1896.22  2636.22 1323.96  2870.48 680.317  2950 0))
+      (outline (path signal 150  2700 0  2621.54 -646.152  2390.73 -1254.75  2020.98 -1790.43
+            1533.78 -2222.06  957.433 -2524.54  325.449 -2680.31  -325.449 -2680.31
+            -957.433 -2524.54  -1533.78 -2222.06  -2020.98 -1790.43  -2390.73 -1254.75
+            -2621.54 -646.152  -2700 0  -2621.54 646.152  -2390.73 1254.75
+            -2020.98 1790.43  -1533.78 2222.06  -957.433 2524.54  -325.449 2680.31
+            325.449 2680.31  957.433 2524.54  1533.78 2222.06  2020.98 1790.43
+            2390.73 1254.75  2621.54 646.152  2700 0))
+      (keepout "" (circle F.Cu 2700))
+      (keepout "" (circle B.Cu 2700))
+    )
+    (image "footprint-lib:cherry_mx_without_led_100H"
+      (outline (path signal 152.4  -6350 6350  6350 6350))
+      (outline (path signal 152.4  6350 6350  6350 -6350))
+      (outline (path signal 152.4  6350 -6350  -6350 -6350))
+      (outline (path signal 152.4  -6350 -6350  -6350 6350))
+      (outline (path signal 152.4  -9398 9398  9398 9398))
+      (outline (path signal 152.4  9398 9398  9398 -9398))
+      (outline (path signal 152.4  9398 -9398  -9398 -9398))
+      (outline (path signal 152.4  -9398 -9398  -9398 9398))
+      (outline (path signal 381  -6350 6350  -4572 6350))
+      (outline (path signal 381  4572 6350  6350 6350))
+      (outline (path signal 381  6350 6350  6350 4572))
+      (outline (path signal 381  6350 -4572  6350 -6350))
+      (outline (path signal 381  6350 -6350  4572 -6350))
+      (outline (path signal 381  -4572 -6350  -6350 -6350))
+      (outline (path signal 381  -6350 -6350  -6350 -4572))
+      (outline (path signal 381  -6350 4572  -6350 6350))
+      (outline (path signal 152.4  -6985 6985  6985 6985))
+      (outline (path signal 152.4  6985 6985  6985 -6985))
+      (outline (path signal 152.4  6985 -6985  -6985 -6985))
+      (outline (path signal 152.4  -6985 -6985  -6985 6985))
+      (pin Round[A]Pad_2286_um 1 2540 5080)
+      (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+      (keepout "" (circle F.Cu 1800 -5080 0))
+      (keepout "" (circle B.Cu 1800 -5080 0))
+      (keepout "" (circle F.Cu 1800 5080 0))
+      (keepout "" (circle B.Cu 1800 5080 0))
+    )
     (image "footprint-lib:USBLC6-2SC6_SOT23-6"
       (outline (path signal 150  -800 -300  -870.187 -492.836  -1047.91 -595.442  -1250 -559.808
             -1381.91 -402.606  -1381.91 -197.394  -1250 -40.192  -1047.91 -4.558
@@ -1034,36 +1096,6 @@
       (pin Rect[T]Pad_2500x2500_um N 3500 3500)
       (pin Rect[T]Pad_2500x2500_um P 3500 -3500)
     )
-    (image "footprint-lib:cherry_mx_without_led_100H"
-      (outline (path signal 152.4  -6350 6350  6350 6350))
-      (outline (path signal 152.4  6350 6350  6350 -6350))
-      (outline (path signal 152.4  6350 -6350  -6350 -6350))
-      (outline (path signal 152.4  -6350 -6350  -6350 6350))
-      (outline (path signal 152.4  -9398 9398  9398 9398))
-      (outline (path signal 152.4  9398 9398  9398 -9398))
-      (outline (path signal 152.4  9398 -9398  -9398 -9398))
-      (outline (path signal 152.4  -9398 -9398  -9398 9398))
-      (outline (path signal 381  -6350 6350  -4572 6350))
-      (outline (path signal 381  4572 6350  6350 6350))
-      (outline (path signal 381  6350 6350  6350 4572))
-      (outline (path signal 381  6350 -4572  6350 -6350))
-      (outline (path signal 381  6350 -6350  4572 -6350))
-      (outline (path signal 381  -4572 -6350  -6350 -6350))
-      (outline (path signal 381  -6350 -6350  -6350 -4572))
-      (outline (path signal 381  -6350 4572  -6350 6350))
-      (outline (path signal 152.4  -6985 6985  6985 6985))
-      (outline (path signal 152.4  6985 6985  6985 -6985))
-      (outline (path signal 152.4  6985 -6985  -6985 -6985))
-      (outline (path signal 152.4  -6985 -6985  -6985 6985))
-      (pin Round[A]Pad_2286_um 1 2540 5080)
-      (pin Round[A]Pad_2286_um 2 -3810 2540)
-      (keepout "" (circle F.Cu 3987.8))
-      (keepout "" (circle B.Cu 3987.8))
-      (keepout "" (circle F.Cu 1800 -5080 0))
-      (keepout "" (circle B.Cu 1800 -5080 0))
-      (keepout "" (circle F.Cu 1800 5080 0))
-      (keepout "" (circle B.Cu 1800 5080 0))
-    )
     (image "footprint-lib:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
       (outline (path signal 120  10500 -2500  10419.1 -3191.85  10180.9 -3846.4  9798.13 -4428.36
             9291.48 -4906.37  8688.24 -5254.65  8020.94 -5454.42  7325.57 -5494.92
@@ -1132,36 +1164,6 @@
       (pin Oval[A]Pad_1000x1000_um 3 0 -2540)
       (pin Oval[A]Pad_1000x1000_um 2 0 -1270)
       (pin Rect[A]Pad_1000x1000_um 1 0 0)
-    )
-    (image "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like"
-      (outline (path signal 1200  1905 0  1827.83 -536.701  1602.59 -1029.92  1247.51 -1439.7
-            791.366 -1732.85  271.11 -1885.61  -271.11 -1885.61  -791.366 -1732.85
-            -1247.51 -1439.7  -1602.59 -1029.92  -1827.83 -536.701  -1905 0
-            -1827.83 536.701  -1602.59 1029.92  -1247.51 1439.7  -791.366 1732.85
-            -271.11 1885.61  271.11 1885.61  791.366 1732.85  1247.51 1439.7
-            1602.59 1029.92  1827.83 536.701  1905 0))
-      (outline (path signal 1200  1905 0  1827.83 -536.701  1602.59 -1029.92  1247.51 -1439.7
-            791.366 -1732.85  271.11 -1885.61  -271.11 -1885.61  -791.366 -1732.85
-            -1247.51 -1439.7  -1602.59 -1029.92  -1827.83 -536.701  -1905 0
-            -1827.83 536.701  -1602.59 1029.92  -1247.51 1439.7  -791.366 1732.85
-            -271.11 1885.61  271.11 1885.61  791.366 1732.85  1247.51 1439.7
-            1602.59 1029.92  1827.83 536.701  1905 0))
-      (outline (path signal 50  2950 0  2870.48 -680.317  2636.22 -1323.96  2259.83 -1896.22
-            1761.62 -2366.26  1168.43 -2708.74  512.262 -2905.18  -171.527 -2945.01
-            -846.07 -2826.07  -1475 -2554.78  -2024.41 -2145.75  -2464.69 -1621.05
-            -2772.09 -1008.96  -2930.05 -342.474  -2930.05 342.474  -2772.09 1008.96
-            -2464.69 1621.05  -2024.41 2145.75  -1475 2554.78  -846.07 2826.07
-            -171.527 2945.01  512.262 2905.18  1168.43 2708.74  1761.62 2366.26
-            2259.83 1896.22  2636.22 1323.96  2870.48 680.317  2950 0))
-      (outline (path signal 150  2700 0  2621.54 -646.152  2390.73 -1254.75  2020.98 -1790.43
-            1533.78 -2222.06  957.433 -2524.54  325.449 -2680.31  -325.449 -2680.31
-            -957.433 -2524.54  -1533.78 -2222.06  -2020.98 -1790.43  -2390.73 -1254.75
-            -2621.54 -646.152  -2700 0  -2621.54 646.152  -2390.73 1254.75
-            -2020.98 1790.43  -1533.78 2222.06  -957.433 2524.54  -325.449 2680.31
-            325.449 2680.31  957.433 2524.54  1533.78 2222.06  2020.98 1790.43
-            2390.73 1254.75  2621.54 646.152  2700 0))
-      (keepout "" (circle F.Cu 2700))
-      (keepout "" (circle B.Cu 2700))
     )
     (padstack Round[A]Pad_1000_um
       (shape (circle F.Cu 1000))
@@ -1644,13 +1646,13 @@
       (pins U5-4 RN1-2)
     )
     (net /keyboard_key/COL1
-      (pins U10-15 SW12-2 SW9-2 SW6-2)
+      (pins SW12-2 SW9-2 SW6-2 U10-15)
     )
     (net /keyboard_key/COL2
-      (pins U10-17 SW13-2 SW10-2 SW7-2)
+      (pins SW13-2 SW10-2 SW7-2 U10-17)
     )
     (net /keyboard_key/COL3
-      (pins U10-29 SW14-2 SW11-2 SW8-2)
+      (pins SW14-2 SW11-2 SW8-2 U10-29)
     )
     (net "Net-(U4-Pad3)"
       (pins U5-1 U4-3)
@@ -1782,9 +1784,6 @@
     (net /stm32_swd/D_SWCLK
       (pins R22-1 J6-2 U10-37)
     )
-    (net /stm32_core/USR_BTN4
-      (pins U10-40)
-    )
     (net /stm32_swd/T_JTCK
       (pins U6-26 R22-2)
     )
@@ -1812,49 +1811,30 @@
     (net "Net-(RN4-Pad1)"
       (pins U9-4 RN4-1)
     )
-    (class kicad_default "" +3V3 +5V /BOOT0 /BOOT1 /D_SWCLK /D_SWDIO /LED_STLINK
-      /OSC32K_N /OSC32K_P /OSC_N /OSC_P /PC13 /RESET /SCL /SDA /SWCLK /SWDIO
-      /T_JTCK /T_JTMS /USB_N /USB_P /WS2812/WS2812_IN /keyboard_key/COL1 /keyboard_key/COL2
-      /keyboard_key/COL3 /keyboard_key/ROW1 /keyboard_key/ROW2 /keyboard_key/ROW3
-      /keyboard_key/ROW4 /oled/SCL /oled/SDA /rot_enc/A /rot_enc/B /rot_enc2/A
+    (class kicad_default "" +3V3 +5V /WS2812/WS2812_IN /keyboard_key/COL1
+      /keyboard_key/COL2 /keyboard_key/COL3 /keyboard_key/ROW1 /keyboard_key/ROW2
+      /keyboard_key/ROW3 /oled/SCL /oled/SDA /rot_enc/A /rot_enc/B /rot_enc2/A
       /rot_enc2/B /status_display/USR_LED_1 /status_display/USR_LED_2 /status_display/USR_LED_3
       /stm32_core/BOOT0 /stm32_core/BOOT1 /stm32_core/BUZZER /stm32_core/OSC32K_N
-      /stm32_core/OSC32K_P /stm32_core/OSC_N /stm32_core/OSC_P /stm32_core/PA15
-      /stm32_core/PC13 /stm32_core/RESET /stm32_core/ROT_ENC_SW1 /stm32_core/ROT_ENC_SW2
-      /stm32_core/TTL_RX /stm32_core/TTL_TX /stm32_core/USB_N /stm32_core/USB_P
-      /stm32_core/USR_BTN1 /stm32_core/USR_BTN2 /stm32_core/USR_BTN3 /stm32_core/USR_BTN4
+      /stm32_core/OSC32K_P /stm32_core/OSC_N /stm32_core/OSC_P /stm32_core/PC13
+      /stm32_core/RESET /stm32_core/ROT_ENC_SW1 /stm32_core/ROT_ENC_SW2 /stm32_core/USB_N
+      /stm32_core/USB_P /stm32_core/USR_BTN1 /stm32_core/USR_BTN2 /stm32_core/USR_BTN3
       /stm32_swd/D_SWCLK /stm32_swd/D_SWDIO /stm32_swd/LED_STLINK /stm32_swd/SWCLK
       /stm32_swd/SWDIO /stm32_swd/T_JTCK /stm32_swd/T_JTMS /stm32_swd/USB_N
       /stm32_swd/USB_P GND "Net-(BZ1-PadN)" "Net-(C29-Pad2)" "Net-(C30-Pad2)"
-      "Net-(C32-Pad1)" "Net-(C52-Pad1)" "Net-(C52-Pad2)" "Net-(C53-Pad1)"
-      "Net-(C53-Pad2)" "Net-(C54-Pad1)" "Net-(C54-Pad2)" "Net-(C55-Pad1)"
-      "Net-(C55-Pad2)" "Net-(C56-Pad1)" "Net-(C56-Pad2)" "Net-(C57-Pad1)"
-      "Net-(C57-Pad2)" "Net-(C58-Pad1)" "Net-(C58-Pad2)" "Net-(C59-Pad1)"
-      "Net-(C59-Pad2)" "Net-(D1-Pad1)" "Net-(D10-Pad2)" "Net-(D10-Pad4)" "Net-(D11-Pad2)"
+      "Net-(C32-Pad1)" "Net-(D1-Pad1)" "Net-(D10-Pad2)" "Net-(D10-Pad4)" "Net-(D11-Pad2)"
       "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
-      "Net-(D16-Pad2)" "Net-(D2-Pad1)" "Net-(D25-Pad1)" "Net-(D26-Pad2)" "Net-(D27-Pad2)"
-      "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D3-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)"
-      "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)"
-      "Net-(D39-Pad1)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D6-Pad4)"
-      "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(J5-Pad4)" "Net-(J6-Pad4)" "Net-(JP7-Pad2)"
-      "Net-(JP8-Pad2)" "Net-(Q1-Pad1)" "Net-(R14-Pad1)" "Net-(R16-Pad1)" "Net-(R17-Pad1)"
-      "Net-(R18-Pad1)" "Net-(R19-Pad2)" "Net-(R20-Pad2)" "Net-(R24-Pad2)"
-      "Net-(R25-Pad1)" "Net-(R26-Pad1)" "Net-(R27-Pad2)" "Net-(R28-Pad1)"
-      "Net-(R29-Pad1)" "Net-(R3-Pad2)" "Net-(R30-Pad1)" "Net-(R37-Pad1)" "Net-(R37-Pad2)"
-      "Net-(R38-Pad1)" "Net-(R38-Pad2)" "Net-(R39-Pad1)" "Net-(R39-Pad2)"
-      "Net-(R40-Pad1)" "Net-(R40-Pad2)" "Net-(RN1-Pad1)" "Net-(RN1-Pad2)"
-      "Net-(RN1-Pad3)" "Net-(RN1-Pad4)" "Net-(RN1-Pad5)" "Net-(RN1-Pad6)"
-      "Net-(RN2-Pad3)" "Net-(RN2-Pad4)" "Net-(RN2-Pad5)" "Net-(RN2-Pad6)"
-      "Net-(RN2-Pad7)" "Net-(RN3-Pad3)" "Net-(RN3-Pad4)" "Net-(RN3-Pad5)"
-      "Net-(RN3-Pad6)" "Net-(RN4-Pad1)" "Net-(RN4-Pad3)" "Net-(RN4-Pad4)"
-      "Net-(RN4-Pad5)" "Net-(RN4-Pad6)" "Net-(U4-Pad2)" "Net-(U4-Pad3)" "Net-(U6-Pad11)"
-      "Net-(U6-Pad12)" "Net-(U6-Pad13)" "Net-(U6-Pad14)" "Net-(U6-Pad15)"
-      "Net-(U6-Pad16)" "Net-(U6-Pad17)" "Net-(U6-Pad18)" "Net-(U6-Pad19)"
-      "Net-(U6-Pad21)" "Net-(U6-Pad22)" "Net-(U6-Pad28)" "Net-(U6-Pad29)"
-      "Net-(U6-Pad3)" "Net-(U6-Pad31)" "Net-(U6-Pad38)" "Net-(U6-Pad39)" "Net-(U6-Pad4)"
-      "Net-(U6-Pad40)" "Net-(U6-Pad41)" "Net-(U6-Pad42)" "Net-(U6-Pad43)"
-      "Net-(U6-Pad45)" "Net-(U6-Pad46)" "Net-(U7-Pad2)" "Net-(U7-Pad3)" VCC
-      Vbuzzer Voled Vstm32 Vstm32_stlink Vusb Vusb_1
+      "Net-(D2-Pad1)" "Net-(D25-Pad1)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)"
+      "Net-(D29-Pad2)" "Net-(D3-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)" "Net-(D32-Pad2)"
+      "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D39-Pad1)"
+      "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D6-Pad4)" "Net-(D7-Pad2)"
+      "Net-(D8-Pad2)" "Net-(J5-Pad4)" "Net-(J6-Pad4)" "Net-(JP7-Pad2)" "Net-(JP8-Pad2)"
+      "Net-(Q1-Pad1)" "Net-(R14-Pad1)" "Net-(R16-Pad1)" "Net-(R17-Pad1)" "Net-(R18-Pad1)"
+      "Net-(R19-Pad2)" "Net-(R20-Pad2)" "Net-(R24-Pad2)" "Net-(R25-Pad1)"
+      "Net-(R26-Pad1)" "Net-(R27-Pad2)" "Net-(R28-Pad1)" "Net-(R29-Pad1)"
+      "Net-(R3-Pad2)" "Net-(R30-Pad1)" "Net-(RN1-Pad1)" "Net-(RN1-Pad2)" "Net-(RN2-Pad7)"
+      "Net-(RN4-Pad1)" "Net-(U4-Pad2)" "Net-(U4-Pad3)" "Net-(U7-Pad2)" "Net-(U7-Pad3)"
+      VCC Vbuzzer Voled Vstm32 Vstm32_stlink Vusb Vusb_1
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
@@ -1946,6 +1926,20 @@
     (wire (path F.Cu 250  101400 -36250  101400 -35474.7  98937.8 -35474.7  97812.5 -36600)(net "Net-(D25-Pad1)")(type protect))
     (wire (path F.Cu 250  102200 -36250  102200 -37025.3  100462 -37025.3  99387.5 -38100)(net "Net-(D26-Pad2)")(type protect))
     (wire (path F.Cu 250  101320 -32000  102495 -32000  103145 -31350  105250 -31350)(net "Net-(J5-Pad4)")(type protect))
+    (wire (path F.Cu 250  89500 -30380  91470 -30380  92850 -29000)(net "Net-(J6-Pad4)")(type protect))
+    (wire (path F.Cu 250  95486.9 -42122.2  95924.7 -42560)(net "Net-(R19-Pad2)")(type protect))
+    (wire (path B.Cu 250  96125 -43200  95486.9 -42561.9  95486.9 -42122.2)(net "Net-(R19-Pad2)")(type protect))
+    (wire (path F.Cu 250  96900 -42560  95924.7 -42560)(net "Net-(R19-Pad2)")(type protect))
+    (wire (path F.Cu 250  100500 -42814  100500 -40460)(net "Net-(R20-Pad2)")(type protect))
+    (wire (path B.Cu 250  101000 -39825  101801 -40626.3  101801 -42112.8  101100 -42814
+            100500 -42814)(net "Net-(R20-Pad2)")(type protect))
+    (wire (path F.Cu 250  103492 -47194.8  103857 -47560  105600 -47560)(net "Net-(R24-Pad2)")(type protect))
+    (wire (path B.Cu 250  104625 -46700  103986 -46700  103492 -47194.8)(net "Net-(R24-Pad2)")(type protect))
+    (wire (path F.Cu 250  101225 -34600  99387.5 -34600)(net "Net-(R25-Pad1)")(type protect))
+    (wire (path F.Cu 250  94700 -49574.7  94700 -47921.6  96061.6 -46560  96900 -46560)(net "Net-(RN2-Pad7)")(type protect))
+    (wire (path F.Cu 250  94700 -49687.3  94700 -49574.7)(net "Net-(RN2-Pad7)")(type protect))
+    (wire (path F.Cu 250  94700 -50350  94700 -49687.3)(net "Net-(RN2-Pad7)")(type protect))
+    (wire (path F.Cu 250  93900 -50350  93900 -49574.7  94700 -49574.7)(net "Net-(RN2-Pad7)")(type protect))
     (wire (path B.Cu 250  107174 -45489.1  107989 -45489.1  108591 -44886.8  108591 -31148.7
             107143 -29700.2  101888 -29700.2  99955.3 -31632.7  99955.3 -32000)(net /stm32_swd/SWDIO)(type protect))
     (wire (path F.Cu 250  106575 -43060  106575 -44890.5  107174 -45489.1)(net /stm32_swd/SWDIO)(type protect))
@@ -1959,17 +1953,10 @@
             99838.3 -40307.7  99838.3 -39636.8  100509 -38966  101463 -38966
             103696 -41198.6  103696 -41739.2  103696 -41739.2)(net /stm32_swd/SWCLK)(type protect))
     (wire (path F.Cu 250  104000 -40460  104000 -41435.3)(net /stm32_swd/SWCLK)(type protect))
-    (wire (path F.Cu 250  89500 -30380  91470 -30380  92850 -29000)(net "Net-(J6-Pad4)")(type protect))
     (wire (path B.Cu 250  89500 -32920  90675.3 -32920  90938.7 -33183.4  101814 -33183.4
             103048 -31950  105625 -31950  106500 -32825)(net /stm32_swd/D_SWDIO)(type protect))
     (wire (path B.Cu 250  104000 -32825  101365 -35460  90675.3 -35460)(net /stm32_swd/D_SWCLK)(type protect))
     (wire (path B.Cu 250  89500 -35460  90675.3 -35460)(net /stm32_swd/D_SWCLK)(type protect))
-    (wire (path F.Cu 250  95486.9 -42122.2  95924.7 -42560)(net "Net-(R19-Pad2)")(type protect))
-    (wire (path B.Cu 250  96125 -43200  95486.9 -42561.9  95486.9 -42122.2)(net "Net-(R19-Pad2)")(type protect))
-    (wire (path F.Cu 250  96900 -42560  95924.7 -42560)(net "Net-(R19-Pad2)")(type protect))
-    (wire (path F.Cu 250  100500 -42814  100500 -40460)(net "Net-(R20-Pad2)")(type protect))
-    (wire (path B.Cu 250  101000 -39825  101801 -40626.3  101801 -42112.8  101100 -42814
-            100500 -42814)(net "Net-(R20-Pad2)")(type protect))
     (wire (path F.Cu 250  106575 -47060  106730 -47214.8  107824 -47214.8  108249 -46790
             108249 -45075.2  107806 -44631.5)(net /stm32_swd/T_JTCK)(type protect))
     (wire (path B.Cu 250  104000 -31075  104884 -30191.1  106997 -30191.1  107806 -31000
@@ -1981,13 +1968,6 @@
     (wire (path F.Cu 250  105600 -46560  107453 -46560  107524 -46489.5)(net /stm32_swd/T_JTMS)(type protect))
     (wire (path B.Cu 250  106615 -46240.7  107275 -46240.7  107524 -46489.5)(net /stm32_swd/T_JTMS)(type protect))
     (wire (path B.Cu 250  106375 -46700  106375 -46480.7  106615 -46240.7)(net /stm32_swd/T_JTMS)(type protect))
-    (wire (path F.Cu 250  103492 -47194.8  103857 -47560  105600 -47560)(net "Net-(R24-Pad2)")(type protect))
-    (wire (path B.Cu 250  104625 -46700  103986 -46700  103492 -47194.8)(net "Net-(R24-Pad2)")(type protect))
-    (wire (path F.Cu 250  101225 -34600  99387.5 -34600)(net "Net-(R25-Pad1)")(type protect))
-    (wire (path F.Cu 250  94700 -49574.7  94700 -47921.6  96061.6 -46560  96900 -46560)(net "Net-(RN2-Pad7)")(type protect))
-    (wire (path F.Cu 250  94700 -49687.3  94700 -49574.7)(net "Net-(RN2-Pad7)")(type protect))
-    (wire (path F.Cu 250  94700 -50350  94700 -49687.3)(net "Net-(RN2-Pad7)")(type protect))
-    (wire (path F.Cu 250  93900 -50350  93900 -49574.7  94700 -49574.7)(net "Net-(RN2-Pad7)")(type protect))
     (wire (path F.Cu 250  102200 -38337.6  103232 -39369.6  104155 -39369.6  104625 -39839.5
             104625 -45060)(net /stm32_swd/LED_STLINK)(type protect))
     (wire (path F.Cu 250  105600 -45060  104625 -45060)(net /stm32_swd/LED_STLINK)(type protect))
@@ -1996,12 +1976,12 @@
     (wire (path F.Cu 250  102200 -37950  102200 -38337.6)(net /stm32_swd/LED_STLINK)(type protect))
     (via "Via[0-1]_800:400_um"  105706 -41313.5 (net Vstm32_stlink)(type protect))
     (via "Via[0-1]_800:400_um"  94994.8 -45289.6 (net "Net-(C32-Pad1)")(type protect))
-    (via "Via[0-1]_800:400_um"  107174 -45489.1 (net /stm32_swd/SWDIO)(type protect))
-    (via "Via[0-1]_800:400_um"  103696 -41739.2 (net /stm32_swd/SWCLK)(type protect))
     (via "Via[0-1]_800:400_um"  95486.9 -42122.2 (net "Net-(R19-Pad2)")(type protect))
     (via "Via[0-1]_800:400_um"  100500 -42814 (net "Net-(R20-Pad2)")(type protect))
+    (via "Via[0-1]_800:400_um"  103492 -47194.8 (net "Net-(R24-Pad2)")(type protect))
+    (via "Via[0-1]_800:400_um"  107174 -45489.1 (net /stm32_swd/SWDIO)(type protect))
+    (via "Via[0-1]_800:400_um"  103696 -41739.2 (net /stm32_swd/SWCLK)(type protect))
     (via "Via[0-1]_800:400_um"  107806 -44631.5 (net /stm32_swd/T_JTCK)(type protect))
     (via "Via[0-1]_800:400_um"  107524 -46489.5 (net /stm32_swd/T_JTMS)(type protect))
-    (via "Via[0-1]_800:400_um"  103492 -47194.8 (net "Net-(R24-Pad2)")(type protect))
   )
 )

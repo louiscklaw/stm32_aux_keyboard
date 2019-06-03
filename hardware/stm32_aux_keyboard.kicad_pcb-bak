@@ -3056,7 +3056,7 @@
     (descr "BLUEPILL SWD TERMINAL")
     (tags "BLUEPILL SWD STM32")
     (path /5CF48B33/5D085742)
-    (fp_text reference J5 (at 0 -2.33 90) (layer F.SilkS)
+    (fp_text reference J5 (at 2.5 6.3 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SWD_SWD (at 0 9.95 90) (layer F.Fab)

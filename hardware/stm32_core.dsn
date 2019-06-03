@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  61194 -38888.9  500.65 -38888.9  500.65 -10567.9  61194 -10567.9
-            61194 -38888.9)
+      (path pcb 0  75000 -63000  57000 -63000  57000 -17000  75000 -17000
+            75000 -63000)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,56 +34,44 @@
   )
   (placement
     (component "footprint-lib:LED_0603_1608Metric"
-      (place D39 18000 -26000 front 0 (PN PC13))
+      (place D39 68000 -32000 back 270 (PN PC13))
     )
     (component "footprint-lib:MC-306"
-      (place Y3 8000 -24000 front 180 (PN O32.768K))
+      (place Y3 69000 -54000 front 270 (PN O32.768K))
     )
     (component "footprint-lib:osc_debug"
-      (place Y2 8000 -31000 front 0 (PN O8M))
+      (place Y2 63000 -53000 front 90 (PN O8M))
     )
     (component "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-      (place U10 25510 -30580 front 0 (PN STM32F103C8T6))
+      (place U10 66510 -38580 front 0 (PN STM32F103C8T6))
     )
     (component "footprint-lib:SW_SPST_CK_RS282G05A3"
-      (place SW19 18500 -18000 front 180 (PN SW_RESET,2_leg,SMD))
+      (place SW19 62000 -25500 front 270 (PN SW_RESET,2_leg,SMD))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R40 58000 -22000 front 0 (PN R0,0603))
-      (place R39 58000 -19000 front 0 (PN R0,0603))
-      (place R38 58000 -16000 front 0 (PN R0,0603))
-      (place R37 58000 -13000 front 0 (PN R0,0603))
-      (place R36 30500 -20000 front 0 (PN R472,0603))
-      (place R35 30500 -22000 front 0 (PN R472,0603))
-      (place R34 18000 -24000 front 0 (PN R511,0603))
-      (place R33 20000 -18000 back 270 (PN R103,0603))
-      (place R32 26000 -20000 front 0 (PN R104))
-      (place R31 26000 -22000 front 180 (PN R104))
-      (place C59 53000 -22000 front 0 (PN SPARE,0603))
-      (place C58 53000 -19000 front 0 (PN SPARE,0603))
-      (place C57 53000 -16000 front 0 (PN SPARE,0603))
-      (place C56 53000 -13000 front 0 (PN SPARE,0603))
-      (place C55 48000 -22000 front 0 (PN SPARE,0603))
-      (place C54 48000 -19000 front 0 (PN SPARE,0603))
-      (place C53 48000 -16000 front 0 (PN SPARE,0603))
-      (place C52 48000 -13000 front 0 (PN SPARE,0603))
-      (place C51 28000 -34742.5 back 270 (PN C104,0603))
-      (place C50 6000 -24000 back 90 (PN C20pf))
-      (place C49 10000 -23875 back 90 (PN C20pf))
-      (place C48 10000 -33000 back 0 (PN C20pf))
-      (place C47 5000 -33000 back 180 (PN C20pf))
-      (place C46 30000 -28000 back 0 (PN C104,0603))
-      (place C45 23000 -26000 back 90 (PN C104,0603))
-      (place C44 21000 -31500 back 180 (PN C104,0603))
-      (place C43 17000 -18000 back 270 (PN C105,0603))
-      (place C42 14000 -36000 back 0 (PN C104,0603))
+      (place R36 70500 -25000 front 0 (PN R472,0603))
+      (place R35 70500 -27000 front 0 (PN R472,0603))
+      (place R34 70000 -32000 back 270 (PN R511,0603))
+      (place R33 62000 -24000 back 0 (PN R103,0603))
+      (place R32 66000 -25000 front 0 (PN R104))
+      (place R31 66000 -27000 front 180 (PN R104))
+      (place C51 69000 -42742.5 back 270 (PN C104,0603))
+      (place C50 69000 -56000 back 180 (PN C20pf))
+      (place C49 68875 -52000 back 180 (PN C20pf))
+      (place C48 65000 -51000 back 90 (PN C20pf))
+      (place C47 65000 -56000 back 270 (PN C20pf))
+      (place C46 71000 -36000 back 0 (PN C104,0603))
+      (place C45 64000 -34000 back 90 (PN C104,0603))
+      (place C44 62000 -39500 back 180 (PN C104,0603))
+      (place C43 62000 -27000 back 0 (PN C105,0603))
+      (place C42 68000 -47000 back 90 (PN C104,0603))
     )
     (component "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm"
-      (place JP8 24000 -30000 back 270 (PN BOOT1))
-      (place JP7 27000 -30000 back 270 (PN BOOT0))
+      (place JP8 65000 -38000 back 270 (PN BOOT1))
+      (place JP7 68000 -38000 back 270 (PN BOOT0))
     )
     (component "footprint-lib:I2C_DEBUG,2.54"
-      (place J8 27000 -17000 front 90 (PN I2C_HEADER,2.54))
+      (place J8 67000 -22000 front 90 (PN I2C_HEADER,2.54))
     )
   )
   (library
@@ -441,18 +429,9 @@
     (net /BOOT1
       (pins U10-20 R32-1)
     )
-    (class kicad_default "" +3V3 /BOOT0 /BOOT1 /BUZZER /COL1 /COL2 /COL3 /OSC32K_N
-      /OSC32K_P /OSC_N /OSC_P /PA15 /PC13 /RESET /ROT_ENC_A1 /ROT_ENC_A2 /ROT_ENC_B1
-      /ROT_ENC_B2 /ROT_ENC_SW1 /ROT_ENC_SW2 /ROW1 /ROW2 /ROW3 /ROW4 /SCL /SDA
-      /SWCLK /SWDIO /TTL_RX /TTL_TX /USB_N /USB_P /USR_BTN1 /USR_BTN2 /USR_BTN3
-      /USR_BTN4 /USR_STA1 /USR_STA2 /USR_STA3 /WS2812_OUT GND "Net-(C52-Pad1)"
-      "Net-(C52-Pad2)" "Net-(C53-Pad1)" "Net-(C53-Pad2)" "Net-(C54-Pad1)"
-      "Net-(C54-Pad2)" "Net-(C55-Pad1)" "Net-(C55-Pad2)" "Net-(C56-Pad1)"
-      "Net-(C56-Pad2)" "Net-(C57-Pad1)" "Net-(C57-Pad2)" "Net-(C58-Pad1)"
-      "Net-(C58-Pad2)" "Net-(C59-Pad1)" "Net-(C59-Pad2)" "Net-(D39-Pad1)"
-      "Net-(JP7-Pad2)" "Net-(JP8-Pad2)" "Net-(R37-Pad1)" "Net-(R37-Pad2)"
-      "Net-(R38-Pad1)" "Net-(R38-Pad2)" "Net-(R39-Pad1)" "Net-(R39-Pad2)"
-      "Net-(R40-Pad1)" "Net-(R40-Pad2)" Vstm32
+    (class kicad_default "" /BOOT0 /BOOT1 /OSC32K_N /OSC32K_P /OSC_N /OSC_P
+      /PC13 /RESET /SCL /SDA GND "Net-(D39-Pad1)" "Net-(JP7-Pad2)" "Net-(JP8-Pad2)"
+      Vstm32
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

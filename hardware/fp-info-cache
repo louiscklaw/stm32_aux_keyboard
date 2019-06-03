@@ -1,4 +1,4 @@
-19549845108922068
+19549845116042068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45630,7 +45630,7 @@ STM32F103C8T6
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf) STM32F103C8T6
 STM32F103C8T6
 0
-58
+49
 48
 footprint-lib
 stm32_LQFP-48_7x7mm_P0.5mm

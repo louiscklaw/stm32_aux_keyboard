@@ -183,7 +183,7 @@
       (place D5 24110 -48140 front 0 (PN USR_LED_3))
       (place D4 23950 -44990 front 0 (PN USR_LED_2))
       (place D3 24030 -42270 front 0 (PN USR_LED_1))
-      (place VUSB1_HEALTHY1 98600 -34600 front 0 (PN LED_GREEN,0603))
+      (place VUSB1 98600 -34600 front 0 (PN LED_GREEN,0603))
       (place D26 98600 -38100 front 0 (PN LED_RED,0603))
       (place D25 98600 -36600 front 0 (PN LED_GREEN,0603))
       (place D39 96500 -66000 back 270 (PN PC13))
@@ -239,8 +239,8 @@
       (place SW1 70200 -99600 front 0 (PN USR_BTN_1))
     )
     (component "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm"
-      (place JP8 93500 -72000 back 270 (PN BOOT1))
-      (place JP7 96500 -72000 back 270 (PN BOOT0))
+      (place JP8 93500 -72000 back 270 (PN B1))
+      (place JP7 96500 -72000 back 270 (PN B0))
     )
     (component "footprint-lib:I2C_DEBUG,2.54"
       (place J8 95500 -56000 front 90 (PN I2C_HEADER,2.54))
@@ -1471,13 +1471,13 @@
       (pins U9-2 U3-3 U3-1 R26-2 J2-1 D16-3 D15-3 D14-3 D13-3 D12-3 D11-3 D10-3 D9-3
         D8-3 D7-3 D6-3 C17-1 C16-1 C15-1 C14-1 C13-1 C12-1 C11-1 C10-1 C9-1 C8-1 C7-1
         C6-1 C5-2 Y2-2 Y2-2@1 Y2-2@2 U6-8 U6-20 U6-23 U6-35 U6-47 U6-47@1 U6-47@2
-        U6-47@3 U6-47@4 U6-47@5 U6-47@6 U6-47@7 U6-47@8 U6-47@9 U6-47@10 VUSB1_HEALTHY1-1
-        RN2-2 R20-1 R19-1 J6-1 J5-1 D26-1 C35-1 C34-2 C33-1 C32-2 C31-2 C30-1 C29-1
-        U10-47 U10-35 U10-23 U10-8 SW19-1 R34-2 JP8-1 JP7-1 C51-2 C50-2 C49-2 C48-2
-        C47-2 C46-2 C45-2 C44-2 C43-2 C42-2 U1-GND C1-2 U2-1 TP7-1 R6-2 R5-2 R4-2
-        C4-2 C3-2 C2-2 SW3-2 U5-2 U4-6 U4-7 U4-7@1 U4-6@1 U4-6@2 U4-9 U4-5 U4-8 U4-7@2
-        SW2-2 SW1-2 R14-2 Q1-2 J3-2 C25-2 U8-1 U7-6 U7-7 U7-7@1 U7-6@1 U7-6@2 U7-9
-        U7-5 U7-8 U7-7@2 C38-2 C37-2 C36-2 SW18-C SW18-E C41-2 C40-2 C39-2 SW5-C SW5-E
+        U6-47@3 U6-47@4 U6-47@5 U6-47@6 U6-47@7 U6-47@8 U6-47@9 U6-47@10 VUSB1-1 RN2-2
+        R20-1 R19-1 J6-1 J5-1 D26-1 C35-1 C34-2 C33-1 C32-2 C31-2 C30-1 C29-1 U10-47
+        U10-35 U10-23 U10-8 SW19-1 R34-2 JP8-1 JP7-1 C51-2 C50-2 C49-2 C48-2 C47-2
+        C46-2 C45-2 C44-2 C43-2 C42-2 U1-GND C1-2 U2-1 TP7-1 R6-2 R5-2 R4-2 C4-2 C3-2
+        C2-2 SW3-2 U5-2 U4-6 U4-7 U4-7@1 U4-6@1 U4-6@2 U4-9 U4-5 U4-8 U4-7@2 SW2-2
+        SW1-2 R14-2 Q1-2 J3-2 C25-2 U8-1 U7-6 U7-7 U7-7@1 U7-6@1 U7-6@2 U7-9 U7-5
+        U7-8 U7-7@2 C38-2 C37-2 C36-2 SW18-C SW18-E C41-2 C40-2 C39-2 SW5-C SW5-E
         C28-2 C27-2 C26-2)
     )
     (net Vstm32_stlink
@@ -1695,7 +1695,7 @@
       (pins U6-25 R24-2)
     )
     (net "Net-(R25-Pad1)"
-      (pins VUSB1_HEALTHY1-2 R25-1)
+      (pins VUSB1-2 R25-1)
     )
     (net "Net-(RN2-Pad7)"
       (pins U6-10 RN2-7 RN2-8)

@@ -821,7 +821,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF63335)
-    (at 167.345 107.675)
+    (at 93.82 99.64)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D174976)
@@ -866,7 +866,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF6331E)
-    (at 175.765 101.055)
+    (at 93.82 108.3)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D17493D)
@@ -912,7 +912,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF63307)
-    (at 167.345 114.295)
+    (at 77.5 75.5)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D174904)
@@ -958,7 +958,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF632F0)
-    (at 175.765 107.675)
+    (at 57.5 75.5)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D1748CB)
@@ -1004,7 +1004,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF632D9)
-    (at 184.185 101.055)
+    (at 37.5 75.5)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D174892)
@@ -1050,7 +1050,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF632C2)
-    (at 175.765 114.295)
+    (at 77.5 56)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D16F2A7)
@@ -1096,7 +1096,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF632AB)
-    (at 184.185 107.675)
+    (at 57.5 56)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D16F26E)
@@ -1142,7 +1142,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF63294)
-    (at 158.925 107.675)
+    (at 37.5 56)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D16C1F5)
@@ -1188,7 +1188,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF6327D)
-    (at 158.925 101.055)
+    (at 77.5 36.5)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D16C1BC)
@@ -1234,7 +1234,7 @@
   )
 
   (module footprint-lib:LED_WS2812B_5050_white (layer F.Cu) (tedit 5CF2786B) (tstamp 5CF63266)
-    (at 167.345 101.055)
+    (at 57.5 36.5)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED_WS2812B_5050_white WS2812 5050")
     (path /5CF35582/5D1689B1)
@@ -4296,7 +4296,7 @@
   )
 
   (module footprint-lib:LED_0603_1608Metric (layer F.Cu) (tedit 5CE3E319) (tstamp 5CF48103)
-    (at 60.5 32.350001 90)
+    (at 78.99 29.850001 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5CF34646/5D0DF858)
@@ -4340,7 +4340,7 @@
   )
 
   (module footprint-lib:LED_0603_1608Metric (layer F.Cu) (tedit 5CE3E319) (tstamp 5CF4814B)
-    (at 56 32.35 90)
+    (at 74.49 29.85 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5CF34646/5D0DF849)
@@ -4582,7 +4582,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5CF4818B)
-    (at 58.5 32.35 90)
+    (at 76.99 29.85 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CF34646/5D0DF873)
@@ -4618,7 +4618,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5CF481BB)
-    (at 54 32.350001 90)
+    (at 72.49 29.850001 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CF34646/5D0DF879)

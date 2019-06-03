@@ -270,4 +270,26 @@ F 3 "~" H 5900 7600 50  0001 C CNN
 	1    5900 7600
 	1    0    0    -1  
 $EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H7
+U 1 1 5D7BA4AD
+P 5600 7600
+F 0 "H7" H 5700 7650 50  0000 L CNN
+F 1 "MOUNT_M2" H 5700 7600 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5600 7600 50  0001 C CNN
+F 3 "~" H 5600 7600 50  0001 C CNN
+	1    5600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2 H8
+U 1 1 5D7BC5AB
+P 5600 7400
+F 0 "H8" H 5700 7450 50  0000 L CNN
+F 1 "MOUNT_M2" H 5700 7400 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5600 7400 50  0001 C CNN
+F 3 "~" H 5600 7400 50  0001 C CNN
+	1    5600 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

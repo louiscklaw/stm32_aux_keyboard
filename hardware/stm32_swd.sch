@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 13
+Sheet 10 13
 Title ""
 Date ""
 Rev ""
@@ -6198,13 +6198,13 @@ Wire Wire Line
 $Comp
 L taobao-rpack:RN_221,0603 RN4
 U 1 1 5CF99338
-P 6700 8750
-F 0 "RN4" V 6283 8750 50  0000 C CNN
-F 1 "RN_221,0603" V 6374 8750 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6975 8750 50  0001 C CNN
-F 3 "~" H 6700 8750 50  0001 C CNN
-	1    6700 8750
-	0    1    1    0   
+P 6700 8450
+F 0 "RN4" V 6283 8450 50  0000 C CNN
+F 1 "RN_221,0603" V 6374 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6975 8450 50  0001 C CNN
+F 3 "~" H 6700 8450 50  0001 C CNN
+	1    6700 8450
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	6200 8550 6500 8550
@@ -7252,10 +7252,10 @@ Wire Wire Line
 	1150 800  1600 800 
 Wire Wire Line
 	1150 900  1600 900 
-NoConn ~ 6500 8750
-NoConn ~ 6500 8850
-NoConn ~ 6900 8750
-NoConn ~ 6900 8850
+NoConn ~ 6500 8450
+NoConn ~ 6500 8350
+NoConn ~ 6900 8450
+NoConn ~ 6900 8350
 NoConn ~ 8000 5400
 NoConn ~ 8000 5600
 NoConn ~ 8000 5700

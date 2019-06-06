@@ -1,4 +1,4 @@
-19559208638046697
+19559208638323697
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44028,7 +44028,7 @@ SOIC, 8 Pin (http://www.ti.com/lit/ds/symlink/lm5017.pdf#page=31), generated wit
 24Cxx_SOIC8 24c02
 0
 14
-9
+8
 footprint-lib
 74HCT4050_SOP16
 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf

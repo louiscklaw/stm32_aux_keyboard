@@ -4,97 +4,97 @@
     (board_frame
       visible
       (bounds
-        0 27 1920 1012
+        471 119 1280 760
       )
     )
     (color_manager
       not_visible
       (bounds
-        0 600 1110 132
+        0 600 1120 134
       )
     )
     (layer_visibility
       not_visible
       (bounds
-        0 450 367 162
+        0 450 352 224
       )
     )
     (object_visibility
       not_visible
       (bounds
-        0 550 410 396
+        0 550 405 656
       )
     )
     (display_miscellanious
       not_visible
       (bounds
-        0 350 236 331
+        0 350 239 410
       )
     )
     (snapshots
       not_visible
       (bounds
-        0 250 237 255
+        0 250 225 310
       )
     )
     (select_parameter
-      not_visible
+      visible
       (bounds
-        0 0 246 467
+        0 27 232 542
       )
     )
     (route_parameter
       not_visible
       (bounds
-        0 100 265 542
+        0 100 261 678
       )
     )
     (manual_rules
       not_visible
       (bounds
-        1920 0 327 196
+        0 27 335 248
       )
     )
     (route_details
       not_visible
       (bounds
-        1920 0 272 240
+        0 27 269 292
       )
     )
     (move_parameter
       not_visible
       (bounds
-        0 50 313 139
+        0 50 325 182
       )
     )
     (clearance_matrix
       not_visible
       (bounds
-        0 150 570 273
+        0 150 570 294
       )
     )
     (via_rules
       not_visible
       (bounds
-        50 150 335 450
+        50 150 335 518
       )
     )
     (edit_vias
       not_visible
       (bounds
-        100 150 413 119
+        100 150 425 140
       )
     )
     (edit_net_rules
       not_visible
       (bounds
-        100 200 913 119
+        100 200 925 140
       )
     )
     (assign_net_rules
       not_visible
       (bounds
-        100 250 228 372
+        100 250 225 142
       )
     )
     (padstack_info
@@ -136,10 +136,10 @@
   )
   (colors
     (background
-      153 153 153
+      70 70 70
     )
     (hilight 0.8
-      230 255 255
+      255 255 255
     )
     (incompletes 1.0
       255 255 255
@@ -212,7 +212,7 @@
       on
     )
     (hilight_routing_obstacle 
-      off
+      on
     )
     (pull_tight_region 
       2147483647

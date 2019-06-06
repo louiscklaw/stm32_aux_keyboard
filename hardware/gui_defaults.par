@@ -4,67 +4,67 @@
     (board_frame
       visible
       (bounds
-        0 27 1920 1012
+        0 27 1280 732
       )
     )
     (color_manager
       not_visible
       (bounds
-        0 600 1110 132
+        0 600 1120 134
       )
     )
     (layer_visibility
       not_visible
       (bounds
-        0 450 367 162
+        0 450 369 162
       )
     )
     (object_visibility
       not_visible
       (bounds
-        0 550 410 396
+        0 550 405 396
       )
     )
     (display_miscellanious
       not_visible
       (bounds
-        0 350 236 331
+        0 350 241 333
       )
     )
     (snapshots
       not_visible
       (bounds
-        0 250 237 255
+        0 250 230 255
       )
     )
     (select_parameter
       not_visible
       (bounds
-        0 0 246 467
+        0 27 236 465
       )
     )
     (route_parameter
       not_visible
       (bounds
-        0 100 265 542
+        0 100 251 540
       )
     )
     (manual_rules
       not_visible
       (bounds
-        1920 0 327 196
+        0 27 315 196
       )
     )
     (route_details
       not_visible
       (bounds
-        1920 0 272 240
+        0 27 263 240
       )
     )
     (move_parameter
       not_visible
       (bounds
-        0 50 313 139
+        0 50 304 139
       )
     )
     (clearance_matrix
@@ -136,10 +136,10 @@
   )
   (colors
     (background
-      204 204 204
+      70 70 70
     )
     (hilight 0.8
-      230 255 255
+      255 255 255
     )
     (incompletes 1.0
       255 255 255
@@ -212,7 +212,7 @@
       on
     )
     (hilight_routing_obstacle 
-      off
+      on
     )
     (pull_tight_region 
       2147483647

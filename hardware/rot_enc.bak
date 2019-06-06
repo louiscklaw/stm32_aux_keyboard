@@ -1633,9 +1633,9 @@ Wire Wire Line
 	4300 2800 4300 3250
 Wire Wire Line
 	4300 3250 3250 3250
-Text Label 2000 2300 0    50   ~ 0
-ROT_ENC_A
 Text Label 2000 2800 0    50   ~ 0
+ROT_ENC_A
+Text Label 2000 2300 0    50   ~ 0
 ROT_ENC_B
 Text Label 2000 3250 0    50   ~ 0
 ROT_ENC_SW

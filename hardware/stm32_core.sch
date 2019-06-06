@@ -1041,17 +1041,6 @@ F 3 "" H 9400 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:O_EPSON_32.768K Y3
-U 1 1 5BCBF11C
-P 8050 5650
-F 0 "Y3" V 8004 5738 50  0000 L CNN
-F 1 "O32.768K" V 8095 5738 50  0000 L CNN
-F 2 "footprint-lib:MC-306" H 8050 5650 50  0001 C CNN
-F 3 "~" H 8050 5650 50  0001 C CNN
-	1    8050 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-c:C20pf C49
 U 1 1 5BCBF1ED
 P 7850 5850
@@ -1216,5 +1205,16 @@ F 2 "" H 3750 900 50  0001 C CNN
 F 3 "" H 3750 900 50  0001 C CNN
 	1    3750 900 
 	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-components:O_EPSON_32.768K Y3
+U 1 1 5CFA3682
+P 8050 5650
+F 0 "Y3" H 8050 5875 50  0000 C CNN
+F 1 "O_EPSON_32.768K" H 8050 5784 50  0000 C CNN
+F 2 "footprint-lib:MC-306" H 8050 5450 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306&lang=en" H 8050 5650 50  0001 C CNN
+	1    8050 5650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

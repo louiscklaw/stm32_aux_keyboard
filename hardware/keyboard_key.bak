@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:stm32_aux_keyboard-cache
+LIBS:LM75-tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 11 13
+Sheet 11 15
 Title ""
 Date ""
 Rev ""

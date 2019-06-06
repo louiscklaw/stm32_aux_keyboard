@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+LIBS:stm32_aux_keyboard-cache
+LIBS:LM75-tryout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR0173
+U 1 1 5CFABB75
+P 4250 1350
+F 0 "#PWR0173" H 4250 1200 50  0001 C CNN
+F 1 "+3V3" H 4265 1523 50  0000 C CNN
+F 2 "" H 4250 1350 50  0001 C CNN
+F 3 "" H 4250 1350 50  0001 C CNN
+	1    4250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1350 4250 1600
+Wire Wire Line
+	4250 1600 4150 1600
+$Comp
+L power:+3V3 #PWR0174
+U 1 1 5CFABEB8
+P 3550 1300
+F 0 "#PWR0174" H 3550 1150 50  0001 C CNN
+F 1 "+3V3" V 3565 1428 50  0000 L CNN
+F 2 "" H 3550 1300 50  0001 C CNN
+F 3 "" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0175
+U 1 1 5CFAC355
+P 3950 1300
+F 0 "#PWR0175" H 3950 1050 50  0001 C CNN
+F 1 "GND" V 3955 1172 50  0000 R CNN
+F 2 "" H 3950 1300 50  0001 C CNN
+F 3 "" H 3950 1300 50  0001 C CNN
+	1    3950 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-c:C106,0805 C19
+U 1 1 5CFAC802
+P 3750 1300
+F 0 "C19" V 3521 1300 50  0000 C CNN
+F 1 "C106,0805" V 3612 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 1300 50  0001 C CNN
+F 3 "~" H 3750 1300 50  0001 C CNN
+	1    3750 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 1300 3650 1300
+Wire Wire Line
+	3850 1300 3950 1300
+Text Label 4400 1800 0    50   ~ 0
+SCL
+$Comp
+L power:GND #PWR?
+U 1 1 5CFAF72B
+P 2950 2000
+AR Path="/5CF636DD/5CFAF72B" Ref="#PWR?"  Part="1" 
+AR Path="/5CFAB75A/5CFAF72B" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABBB6/5CFAF72B" Ref="#PWR0176"  Part="1" 
+F 0 "#PWR0176" H 2950 1750 50  0001 C CNN
+F 1 "GND" H 2955 1827 50  0000 C CNN
+F 2 "" H 2950 2000 50  0001 C CNN
+F 3 "" H 2950 2000 50  0001 C CNN
+	1    2950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1900 3350 1900
+Text Label 4550 1900 2    50   ~ 0
+SDA
+Wire Wire Line
+	4150 1800 4850 1800
+Wire Wire Line
+	4150 1900 4950 1900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CFAF736
+P 4900 1000
+AR Path="/5CF636DD/5CFAF736" Ref="#PWR?"  Part="1" 
+AR Path="/5CFAB75A/5CFAF736" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABBB6/5CFAF736" Ref="#PWR0177"  Part="1" 
+F 0 "#PWR0177" H 4900 850 50  0001 C CNN
+F 1 "+3V3" H 4915 1173 50  0000 C CNN
+F 2 "" H 4900 1000 50  0001 C CNN
+F 3 "" H 4900 1000 50  0001 C CNN
+	1    4900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-rpack:RN_472,0603 RN?
+U 1 1 5CFAF73C
+P 5050 1350
+AR Path="/5CF636DD/5CFAF73C" Ref="RN?"  Part="1" 
+AR Path="/5CFAB75A/5CFAF73C" Ref="RN?"  Part="1" 
+AR Path="/5CFABBB6/5CFAF73C" Ref="RN6"  Part="1" 
+F 0 "RN6" H 5238 1396 50  0000 L CNN
+F 1 "RN_472,0603" H 5238 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5325 1350 50  0001 C CNN
+F 3 "~" H 5050 1350 50  0001 C CNN
+	1    5050 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1000 4900 1050
+Wire Wire Line
+	4900 1050 4850 1050
+Wire Wire Line
+	4850 1050 4850 1150
+Wire Wire Line
+	4950 1150 4950 1050
+Wire Wire Line
+	4950 1050 4900 1050
+Connection ~ 4900 1050
+Wire Wire Line
+	4850 1550 4850 1800
+Wire Wire Line
+	4950 1550 4950 1900
+NoConn ~ 5050 1150
+NoConn ~ 5150 1150
+NoConn ~ 5050 1550
+NoConn ~ 5150 1550
+Wire Wire Line
+	3350 1600 2950 1600
+Wire Wire Line
+	2950 1600 2950 1700
+Connection ~ 2950 1900
+Wire Wire Line
+	2950 1900 2950 2000
+Wire Wire Line
+	3350 1700 2950 1700
+Connection ~ 2950 1700
+Wire Wire Line
+	2950 1700 2950 1800
+Wire Wire Line
+	3350 1800 2950 1800
+Connection ~ 2950 1800
+Wire Wire Line
+	2950 1800 2950 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5CFB795D
+P 4350 2100
+AR Path="/5CF636DD/5CFB795D" Ref="#PWR?"  Part="1" 
+AR Path="/5CFAB75A/5CFB795D" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABBB6/5CFB795D" Ref="#PWR0178"  Part="1" 
+F 0 "#PWR0178" H 4350 1850 50  0001 C CNN
+F 1 "GND" H 4355 1927 50  0000 C CNN
+F 2 "" H 4350 2100 50  0001 C CNN
+F 3 "" H 4350 2100 50  0001 C CNN
+	1    4350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2100 4350 1700
+Wire Wire Line
+	4350 1700 4150 1700
+Text HLabel 800  700  0    50   Input ~ 0
+SCL
+Text HLabel 800  800  0    50   Input ~ 0
+SDA
+Text Label 1300 700  2    50   ~ 0
+SCL
+Text Label 1300 800  2    50   ~ 0
+SDA
+Wire Wire Line
+	800  700  1300 700 
+Wire Wire Line
+	1300 800  800  800 
+$Comp
+L taobao-components:24C02_SOIC8 U12
+U 1 1 5CFC1B29
+P 3750 1750
+F 0 "U12" H 3750 1427 50  0000 C CNN
+F 1 "24C02_SOIC8" H 3750 1336 50  0000 C CNN
+F 2 "footprint-lib:24Cxx_SOIC8" H 3750 1750 50  0001 C CNN
+F 3 "" H 3750 1750 50  0001 C CNN
+	1    3750 1750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
